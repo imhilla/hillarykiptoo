@@ -4,19 +4,27 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getMode } from './actions/index';
 
 export default function Header() {
-  const currenColor = useSelector(state => state.getMode);
-  console.log(currenColor);
+  const currentColor = useSelector(state => state.getMode);
   const dispatch = useDispatch();
   const [, rerender] = useState(false);
-  const [isActive, setisActive] = React.useState(false)
+  const [isActive, setisActive] = React.useState(false);
 
   useEffect(() => {
-    dispatch(getMode());
     const timer1 = setTimeout(() => rerender(null), 2000);
     return () => {
       clearTimeout(timer1);
     };
   }, [dispatch]);
+
+  const changeMode = () => {
+    if (currentColor.color === 'white') {
+      console.log('black')
+      dispatch(getMode('black'));
+    } else {
+      console.log('white')
+      dispatch(getMode('white'));
+    }
+  }
 
   const navBar = (
     <nav className='navbar' role='navigation' aria-label='main navigation'>
@@ -48,12 +56,9 @@ export default function Header() {
       <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
         <div className='navbar-end'>
           <div className='navbar-item'>
-            <a href='/' className='navbar-item'>
-              Home
-          </a>
-            <a href='/' className='navbar-item'>
-              Documentation
-          </a>
+            <a href='/' className='navbar-item'>Home</a>
+            <a href='/' className='navbar-item'>Documentation</a>
+            <button onClick={changeMode}>dark mode</button>
           </div>
         </div>
       </div>

@@ -1,9 +1,8 @@
-export const getMode = () => async dispatch => {
+export const getMode = (color) => async dispatch => {
   try {
-    localStorage.setItem('mode', 'black');
     dispatch({
       type: 'GET_MODE',
-      payload: localStorage.mode,
+      payload: color,
     });
   } catch (e) {
     console.log(e);

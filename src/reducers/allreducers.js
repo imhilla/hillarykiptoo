@@ -1,15 +1,11 @@
-const initialState = {
-  color: 'white',
-}
-
-function getMode(state = {initialState}, action) {
+function getMode(state = { color: 'white' }, action) {
   switch (action.type) {
-    case 'GET_DARK':
+    case 'GET_MODE':
       return {
         ...state,
-        mode: action.payload,
+        color: action.payload,
       };
-      
+
     default:
       return state;
   }
