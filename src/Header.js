@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getMode } from './actions/index';
+import { getMode, setReverse } from './actions/index';
 
 export default function Header() {
   const currentColor = useSelector(state => state.getMode);
+  const reverseColor = useSelector(state => state.getMode);
   const dispatch = useDispatch();
   const [, rerender] = useState(false);
   const [isActive, setisActive] = React.useState(false);
@@ -17,12 +18,12 @@ export default function Header() {
   }, [dispatch]);
 
   const changeMode = () => {
-    if (currentColor.color === 'white') {
-      console.log('black')
+    if (currentColor.color === 'white' && reverseColor.reverse === 'black') {
       dispatch(getMode('black'));
+      dispatch(setReverse('white'))
     } else {
-      console.log('white')
       dispatch(getMode('white'));
+      dispatch(setReverse('black'))
     }
   }
 
