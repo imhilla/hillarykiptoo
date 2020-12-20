@@ -8,6 +8,7 @@ import './styles/header.css';
 import './styles/hi.css';
 import './styles/quotes.css';
 import './styles/app.css';
+import './styles/social.css';
 
 function App() {
   const currentColor = useSelector(state => state.getMode);
@@ -22,7 +23,6 @@ function App() {
           <Quotes />
           <Social />
         </div>
-
       </div>
     </div>
   );

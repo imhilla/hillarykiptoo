@@ -3,3 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.appContainer {
+  min-height: 90vh;
+}
