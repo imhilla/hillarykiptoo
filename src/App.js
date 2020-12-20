@@ -4,6 +4,7 @@ import Hi from '../src/components/Hi';
 import Quotes from '../src/components/Quotes';
 import './styles/header.css';
 import './styles/hi.css';
+import './styles/quotes.css';
 
 function App() {
   const currentColor = useSelector(state => state.getMode);

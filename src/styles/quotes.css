@@ -1,0 +1,8 @@
+.quotes h1 {
+ font-weight: bold;
+}
+
+.quotes p {
+  font-weight: lighter;
+  font-size: 12px;
+}
