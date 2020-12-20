@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1023.9px) {
+  .navitemscontainer {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 1em;
+    justify-content: flex-start;
+  }
+
+  .nav-items {
+    padding-bottom: 2em;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navitemscontainer {
+    padding: 1em;
+  }
+
+  .nav-items {
+    padding-right: 2em;
+    font-weight: bold;
+  }
+}
+
+.logo-item {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.darkmode {
+  border: none;
+  background-color: transparent;
+  outline: transparent;
+  font-size: 15px;
+}
+
+.darkmode:hover {
+  outline: transparent;
+}
+
+nav {
+  border-bottom: 0.5px solid black;
+}
