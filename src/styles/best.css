@@ -1,0 +1,44 @@
+.mybest {
+  padding: 4em;
+}
+
+.mybest h1 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.promoted {
+  display: flex;
+}
+
+.promotedfirst {
+  padding: 0 20px 0 0;
+}
+
+.promotedsecond {
+  padding: 0 0 0 20px;
+}
+
+.group {
+  display: flex;
+  width: 100%;
+}
+
+.promotedgroup1 {
+  height: 200px;
+  width: 33.3%;
+  margin: 10px 10px 0 0;
+}
+
+.promotedgroup2 {
+  margin: 10px;
+  height: 200px;
+  width: 33.3%;
+}
+
+.promotedgroup3 {
+  height: 200px;
+  margin: 10px 0 0 10px;
+  width: 33.3%;
+}
