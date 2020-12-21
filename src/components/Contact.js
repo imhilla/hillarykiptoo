@@ -1,5 +1,8 @@
 import React from 'react';
-import axios from 'axios';
+// import axios from 'axios';
+import emailjs from 'emailjs-com';
+import apiKeys from '../apikeys';
+
 class Contact extends React.Component {
   state = {
     name: '',
@@ -11,24 +14,21 @@ class Contact extends React.Component {
 
   formSubmit = (e) => {
     e.preventDefault()
-
-    this.setState({
-      buttonText: '...sending'
-    })
-
     let data = {
       name: this.state.name,
       email: this.state.email,
       message: this.state.message
     }
 
-    axios.post('API_URI', data)
-      .then(res => {
-        this.setState({ sent: true }, this.resetForm())
-      })
-      .catch(() => {
-        console.log('Message not sent')
-      })
+    emailjs.sendForm('gmail', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
+      .then(result => {
+        console.log(e.target.email);
+        alert('Message Sent, I\'ll get back to you shortly', result.text);
+      },
+        error => {
+          alert('An error occured, Plese try again', error.text)
+        })
+
   }
 
   resetForm = () => {
@@ -70,7 +70,7 @@ class Contact extends React.Component {
               <textarea onChange={e => this.setState({ message: e.target.value })} name="message" class="textarea" type="text" placeholder="Please write your message here" value={this.state.message} required />
             </div>
           </div>
-          
+
           <div>
             <button type="submit" className="button is-link">{this.state.buttonText}</button>
           </div>

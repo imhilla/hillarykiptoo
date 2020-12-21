@@ -25,7 +25,7 @@ import './styles/social2.css';
 function App() {
   const currentColor = useSelector(state => state.getMode);
   const reverseColor = useSelector(state => state.getMode);
-  console.log(currentColor, reverseColor);
+  // console.log(currentColor, reverseColor);
   return (
     <div className="App" style={{ backgroundColor: `${currentColor.color}` }}>
       <Header />
