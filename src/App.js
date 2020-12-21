@@ -44,6 +44,7 @@ function App() {
       </div>
       <Contact />
       <Social2 />
+      <div className="copyright">Coded with ❤️ by @Hillary</div>
     </div>
   );
 }

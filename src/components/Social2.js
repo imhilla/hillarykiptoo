@@ -6,10 +6,21 @@ export default function Social2() {
   const github = 'https://github.com/imhilla';
 
   return (
-    <div>
-      <a href={linkedin}><FaLinkedin /></a>
-      <a href={twitter}><FaTwitter /></a>
-      <a href={github}><FaGithub /></a>
+    <div className="social2">
+      <div className="socialc">
+        <div className="socialch">
+          <a href={linkedin}><FaLinkedin /></a>
+          <p>LinkedIn</p>
+        </div>
+        <div className="socialch">
+          <a href={twitter}><FaTwitter /></a>
+          <p>Twitter</p>
+        </div>
+        <div className="socialch">
+          <a href={github}><FaGithub /></a>
+          <p>Github</p>
+        </div>
+      </div>
     </div>
   )
 }

@@ -1,0 +1,23 @@
+.social2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialc {
+  display: flex;
+}
+
+.socialch {
+  margin: 2em;
+}
+
+.socialch p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.social2 a {
+  font-size: 20px;
+  padding: 1em 0;
+}
