@@ -5,6 +5,9 @@ import Quotes from '../src/components/Quotes';
 import Social from '../src/components/Social';
 import Image from './components/Myimage';
 import Best from './components/Best';
+import Cv from './components/Cv';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 import './styles/header.css';
 import './styles/hi.css';
@@ -13,6 +16,9 @@ import './styles/app.css';
 import './styles/social.css';
 import './styles/image.css';
 import './styles/best.css';
+import './styles/cv.css';
+import './styles/skills.css';
+import './styles/contacts.css';
 
 function App() {
   const currentColor = useSelector(state => state.getMode);
@@ -30,6 +36,11 @@ function App() {
       </div>
       <Image />
       <Best />
+      <div className="cvskills">
+        <Skills />
+        <Cv />
+      </div>
+      <Contact />
     </div>
   );
 }

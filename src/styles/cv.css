@@ -1,0 +1,33 @@
+.cv {
+  padding: 2em;
+  width: 40%;
+}
+
+.pdf {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  width: 15%;
+}
+
+.resumetitle {
+  font-weight: bold;
+  margin: 1em 0 0 0;
+  color: black;
+  font-size: 20px;
+}
+
+.gmailpropmt {
+  font-size: 15px;
+  margin: 0.5em 0 0 0;
+}
+
+.downloadbutton {
+  padding: 5px 15px;
+  font-size: 14px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 0.5em 0 0 0;
+}

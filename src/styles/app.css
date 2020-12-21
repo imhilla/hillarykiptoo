@@ -7,3 +7,10 @@
 .appContainer {
   min-height: 90vh;
 }
+
+.cvskills {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 4em;
+}
