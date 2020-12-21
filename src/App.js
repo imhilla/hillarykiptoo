@@ -8,6 +8,7 @@ import Best from './components/Best';
 import Cv from './components/Cv';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Social2 from './components/Social2'
 
 import './styles/header.css';
 import './styles/hi.css';
@@ -19,6 +20,7 @@ import './styles/best.css';
 import './styles/cv.css';
 import './styles/skills.css';
 import './styles/contacts.css';
+import './styles/social2.css';
 
 function App() {
   const currentColor = useSelector(state => state.getMode);
@@ -41,6 +43,7 @@ function App() {
         <Cv />
       </div>
       <Contact />
+      <Social2 />
     </div>
   );
 }
