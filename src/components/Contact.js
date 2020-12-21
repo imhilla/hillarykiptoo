@@ -14,21 +14,13 @@ class Contact extends React.Component {
 
   formSubmit = (e) => {
     e.preventDefault()
-    let data = {
-      name: this.state.name,
-      email: this.state.email,
-      message: this.state.message
-    }
-
     emailjs.sendForm('gmail', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
       .then(result => {
-        console.log(e.target.email);
         alert('Message Sent, I\'ll get back to you shortly', result.text);
       },
         error => {
           alert('An error occured, Plese try again', error.text)
         })
-
   }
 
   resetForm = () => {
