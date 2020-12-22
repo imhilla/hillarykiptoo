@@ -10,7 +10,6 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Social2 from './components/Social2'
 import Photo from './components/Photo'
-import { FaAngleDoubleDown } from 'react-icons/fa';
 
 
 import './styles/header.css';
@@ -42,10 +41,6 @@ function App() {
           <Quotes currentColor={currentColor} reverseColor={reverseColor} />
           <Social currentColor={currentColor} reverseColor={reverseColor} />
         </div>
-      </div>
-      <div className="contactme">
-        <button className="button">Contact me</button>
-        <a href="#" className="mywork button"><FaAngleDoubleDown className="downbutton bounce" />My work</a>
       </div>
       <Image />
       <Best />

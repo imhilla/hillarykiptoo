@@ -1,4 +1,5 @@
-.hiContainer {
+.hiDescription {
+  min-height: 50vh;
 }
 
 .emoji {
