@@ -6,6 +6,7 @@
 
 .appContainer {
   min-height: 90vh;
+  position: relative;
 }
 
 .cvskills {
@@ -18,4 +19,42 @@
 .copyright {
   text-align: center;
   padding: 1em 1em 3em 1em;
+}
+
+.contactme {
+  margin-left: 4em;
+  padding-bottom: 1em;
+}
+
+.mywork {
+  /* font-size: 20px; */
+  margin: 0 2em;
+}
+
+.hiphoto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.downbutton {
+  margin-right: 10px;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
 }

@@ -9,6 +9,9 @@ import Cv from './components/Cv';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Social2 from './components/Social2'
+import Photo from './components/Photo'
+import { FaAngleDoubleDown } from 'react-icons/fa';
+
 
 import './styles/header.css';
 import './styles/hi.css';
@@ -21,6 +24,7 @@ import './styles/cv.css';
 import './styles/skills.css';
 import './styles/contacts.css';
 import './styles/social2.css';
+import './styles/photo.css';
 
 function App() {
   const currentColor = useSelector(state => state.getMode);
@@ -30,11 +34,18 @@ function App() {
     <div className="App" style={{ backgroundColor: `${currentColor.color}` }}>
       <Header />
       <div className="appContainer">
-        <Hi currentColor={currentColor} reverseColor={reverseColor} />
+        <div className="hiphoto">
+          <Hi currentColor={currentColor} reverseColor={reverseColor} />
+          <Photo currentColor={currentColor} reverseColor={reverseColor} />
+        </div>
         <div className="quotesocial">
           <Quotes currentColor={currentColor} reverseColor={reverseColor} />
           <Social currentColor={currentColor} reverseColor={reverseColor} />
         </div>
+      </div>
+      <div className="contactme">
+        <button className="button">Contact me</button>
+        <a href="#" className="mywork button"><FaAngleDoubleDown className="downbutton bounce" />My work</a>
       </div>
       <Image />
       <Best />
