@@ -32,8 +32,8 @@ function App() {
       <div className="appContainer">
         <Hi currentColor={currentColor} reverseColor={reverseColor} />
         <div className="quotesocial">
-          <Quotes />
-          <Social />
+          <Quotes currentColor={currentColor} reverseColor={reverseColor} />
+          <Social currentColor={currentColor} reverseColor={reverseColor} />
         </div>
       </div>
       <Image />

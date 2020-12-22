@@ -2,7 +2,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
 
-export default function Quotes() {
+export default function Quotes(props) {
   let [data, setData] = useState([]);
   let [number, setNum] = useState(1);
 
@@ -20,17 +20,30 @@ export default function Quotes() {
         setData(newData)
       });
 
-    setNum(randomNumber(0, 99))
+    function func() {
+      setNum(randomNumber(0, 99))
+    }
+    setInterval(() => { func() }, 8000)
+
 
   }, []);
-
+  console.log(props);
   const myquote = data.length !== 0 ? (
     data.map((element, index) => {
       if (number === index) {
         return (
-          <div className="quotes">
-            <h1>{element.text}</h1>
-            <p>{element.author}</p>
+          <div className="quotes fade-in">
+            <blockquote className="otro-blockquote"
+              style={
+                {
+                  color: `${props.currentColor.color}`,
+                  backgroundColor: `${props.reverseColor.reverse}`,
+                }
+              }
+            >
+              {element.text}
+              <span style={{ color: `${props.currentColor.color}`, backgroundColor: `${props.reverseColor.reverse}` }}>{element.author}</span>
+            </blockquote>
           </div>
         )
       }
