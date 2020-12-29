@@ -24,7 +24,7 @@ export default function Quotes(props) {
     function func() {
       setNum(randomNumber(0, 99))
     }
-    setInterval(() => { func() }, 8000)
+    setInterval(() => { func() }, 5000)
 
 
   }, []);
@@ -33,7 +33,8 @@ export default function Quotes(props) {
     data.map((element, index) => {
       if (number === index) {
         return (
-          <div className="quotes fade-in">
+          <div className="quotes">
+            {/* <div className="quotes fade-in"> */}
             <blockquote className="otro-blockquote"
               style={
                 {

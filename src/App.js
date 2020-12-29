@@ -4,6 +4,7 @@ import { Animated } from "react-animated-css";
 import Hi from '../src/components/Hi';
 import Quotes from '../src/components/Quotes';
 import Social from '../src/components/Social';
+import { StickyContainer, Sticky } from 'react-sticky';
 import Image from './components/Myimage';
 import Best from './components/Best';
 import Cv from './components/Cv';
@@ -31,10 +32,16 @@ function App() {
   // console.log(currentColor, reverseColor);
   return (
     <div className="App" style={{ backgroundColor: `${currentColor.color}` }}>
-      <Header />
+    
+      {/* <StickyContainer> */}
+        <Header className="header" id="myHeader" />
+      {/* </StickyContainer> */}
+
       <div className="appContainer">
         <div className="hiphoto">
-          <Hi currentColor={currentColor} reverseColor={reverseColor} />
+          <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+            <Hi currentColor={currentColor} reverseColor={reverseColor} />
+          </Animated>
           <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
             <div>
               <Photo currentColor={currentColor} reverseColor={reverseColor} />
@@ -42,12 +49,14 @@ function App() {
           </Animated>
         </div>
         <div className="quotesocial">
-          <Quotes currentColor={currentColor} reverseColor={reverseColor} />
+          <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible={true}>
+            <Quotes currentColor={currentColor} reverseColor={reverseColor} />
+          </Animated>
           <Social currentColor={currentColor} reverseColor={reverseColor} />
         </div>
       </div>
       {/* <Image /> */}
-      <Best />
+      <Best currentColor={currentColor} reverseColor={reverseColor} />
       <div className="cvskills">
         <Skills />
         <Cv />
