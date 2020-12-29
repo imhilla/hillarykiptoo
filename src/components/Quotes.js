@@ -1,6 +1,7 @@
 /* eslint-disable array-callback-return */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
+import Loader from './Loader';
 
 export default function Quotes(props) {
   let [data, setData] = useState([]);
@@ -48,7 +49,7 @@ export default function Quotes(props) {
         )
       }
     })
-  ) : (<div className="quotes"><h1>Loading..</h1></div>);
+  ) : (<Loader className="quotes" />);
 
   return (
     <div>{myquote}</div>

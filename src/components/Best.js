@@ -5,11 +5,37 @@ export default function Best() {
     <div className="mybest">
       <h1>My best</h1>
       <div className="promoted">
-        <div className="promotedfirst">
-          <img src={image1} />
+        <div className="promotedfirst"
+          style={{
+            backgroundImage: `url(${image1})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}>
+          <h1 class="best-title">Title</h1>
+          <div className="usedContainer">
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+          </div>
+          <a href="" className="seeproject button">see the project</a>
         </div>
-        <div className="promotedsecond">
-          <img src={image1} />
+        <div className="promotedsecond"
+          style={{
+            backgroundImage: `url(${image1})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}>
+          <h1 class="best-title">Title</h1>
+          <div className="usedContainer">
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+          </div>
+          <a href="" className="seeproject button">see the project</a>
         </div>
       </div>
       <div className="group">
@@ -21,6 +47,14 @@ export default function Best() {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
           }}>
+          <h1 class="best-title">Title</h1>
+          <div className="usedContainer">
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+          </div>
+          <a href="" className="seeproject button">see the project</a>
         </div>
         <div className="promotedgroup2"
           style={{
@@ -29,6 +63,14 @@ export default function Best() {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
           }}>
+          <h1 class="best-title">Title</h1>
+          <div className="usedContainer">
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+          </div>
+          <a href="" className="seeproject button">see the project</a>
         </div>
         <div className="promotedgroup3"
           style={{
@@ -37,7 +79,14 @@ export default function Best() {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
           }}>
-
+          <h1 class="best-title">Title</h1>
+          <div className="usedContainer">
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+            <h1 className="used">HTML</h1>
+          </div>
+          <a href="" className="seeproject button">see the project</a>
         </div>
       </div>
     </div>

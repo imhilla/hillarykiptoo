@@ -1,5 +1,14 @@
 .photocontainer {
   width: 500px;
-  margin: 0 4em 0 0;
   height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 84% 48% 70% 43% / 85% 64% 65% 55% ;
+  padding: 1em;
+  margin-right: 3em;
+}
+
+.svgphoto {
+  padding: 1em;
 }

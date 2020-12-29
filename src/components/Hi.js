@@ -1,6 +1,5 @@
 import FadeIn from 'react-fade-in';
 import Typewriter from 'typewriter-effect';
-import { FaAngleDoubleDown } from 'react-icons/fa';
 
 export default function Hi(props) {
   console.log(props.currentColor)
@@ -22,6 +21,8 @@ export default function Hi(props) {
                 'JavaScript',
                 'React and Redux',
                 'TDD',
+                'Ruby',
+                'Ruby on Rails',
                 'Data structures and Algorithms',
                 'Contact me 😊',
               ],
@@ -30,10 +31,6 @@ export default function Hi(props) {
             }}
           />
         </FadeIn>
-      </div>
-      <div className="contactme">
-        <button className="button">Contact me</button>
-        <a href="#" className="mywork button"><FaAngleDoubleDown className="downbutton bounce" />My work</a>
       </div>
     </div>
   )

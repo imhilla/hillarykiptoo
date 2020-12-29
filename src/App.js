@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux';
 import Header from '../src/components/Header';
+import { Animated } from "react-animated-css";
 import Hi from '../src/components/Hi';
 import Quotes from '../src/components/Quotes';
 import Social from '../src/components/Social';
@@ -10,7 +11,6 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Social2 from './components/Social2'
 import Photo from './components/Photo'
-
 
 import './styles/header.css';
 import './styles/hi.css';
@@ -35,14 +35,18 @@ function App() {
       <div className="appContainer">
         <div className="hiphoto">
           <Hi currentColor={currentColor} reverseColor={reverseColor} />
-          <Photo currentColor={currentColor} reverseColor={reverseColor} />
+          <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
+            <div>
+              <Photo currentColor={currentColor} reverseColor={reverseColor} />
+            </div>
+          </Animated>
         </div>
         <div className="quotesocial">
           <Quotes currentColor={currentColor} reverseColor={reverseColor} />
           <Social currentColor={currentColor} reverseColor={reverseColor} />
         </div>
       </div>
-      <Image />
+      {/* <Image /> */}
       <Best />
       <div className="cvskills">
         <Skills />
