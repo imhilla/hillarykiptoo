@@ -80,3 +80,11 @@
   bottom: 0;
   margin:10px 20px;
 }
+
+.hidden {
+  display: none;
+}
+
+.promotedfirst:hover .hidden {
+  display: block;
+}
