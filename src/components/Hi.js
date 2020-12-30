@@ -14,8 +14,7 @@ export default function Hi(props) {
             options={{
               strings: [
                 'I can help you build a product feature.',
-                'Over the past year',
-                'I have gained skills in',
+                'In',
                 'HTML ',
                 'CSS',
                 'JavaScript',

@@ -52,30 +52,35 @@ export default function Best(props) {
             backgroundRepeat: 'no-repeat'
           }}>
           <h1 class="best-title"
+            style={{
+              color: props.currentColor.color,
+            }}
           >Title</h1>
-          <div className="usedContainer">
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
+          <div className="hidden">
+            <div className="usedContainer">
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+            </div>
+            <a href="" className="seeproject button">see the project</a>
           </div>
-          <a href="" className="seeproject button">see the project</a>
         </div>
       </div>
       <div className="group">
@@ -87,30 +92,35 @@ export default function Best(props) {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
           }}>
-          <h1 class="best-title">Title</h1>
-          <div className="usedContainer">
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
+          <h1 class="best-title"
+            style={{
+              color: props.currentColor.color,
+            }}>Title</h1>
+          <div className="hidden">
+            <div className="usedContainer">
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+            </div>
+            <a href="" className="seeproject button">see the project</a>
           </div>
-          <a href="" className="seeproject button">see the project</a>
         </div>
         <div className="promotedgroup2"
           style={{
@@ -119,30 +129,35 @@ export default function Best(props) {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
           }}>
-          <h1 class="best-title">Title</h1>
-          <div className="usedContainer">
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
+          <h1 class="best-title"
+            style={{
+              color: props.currentColor.color,
+            }}>Title</h1>
+          <div className="hidden">
+            <div className="usedContainer">
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+            </div>
+            <a href="" className="seeproject button">see the project</a>
           </div>
-          <a href="" className="seeproject button">see the project</a>
         </div>
         <div className="promotedgroup3"
           style={{
@@ -151,30 +166,35 @@ export default function Best(props) {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
           }}>
-          <h1 class="best-title">Title</h1>
-          <div className="usedContainer">
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
-            <div className="used"
-              style={{
-                backgroundColor: props.reverseColor.reverse,
-                color: props.currentColor.color,
-              }}>HTML</div>
+          <h1 class="best-title"
+            style={{
+              color: props.currentColor.color,
+            }}>Title</h1>
+          <div className="hidden">
+            <div className="usedContainer">
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+              <div className="used"
+                style={{
+                  backgroundColor: props.reverseColor.reverse,
+                  color: props.currentColor.color,
+                }}>HTML</div>
+            </div>
+            <a href="" className="seeproject button">see the project</a>
           </div>
-          <a href="" className="seeproject button">see the project</a>
         </div>
       </div>
     </div>

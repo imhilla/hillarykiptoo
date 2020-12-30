@@ -32,9 +32,9 @@ function App() {
   // console.log(currentColor, reverseColor);
   return (
     <div className="App" style={{ backgroundColor: `${currentColor.color}` }}>
-    
+
       {/* <StickyContainer> */}
-        <Header className="header" id="myHeader" />
+      <Header className="header" id="myHeader" />
       {/* </StickyContainer> */}
 
       <div className="appContainer">
@@ -58,7 +58,7 @@ function App() {
       {/* <Image /> */}
       <Best currentColor={currentColor} reverseColor={reverseColor} />
       <div className="cvskills">
-        <Skills />
+        <Skills currentColor={currentColor} reverseColor={reverseColor} />
         <Cv />
       </div>
       <Contact />

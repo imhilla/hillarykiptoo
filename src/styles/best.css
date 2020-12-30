@@ -61,7 +61,7 @@
 }
 
 .best-title {
-  margin:0 20px;
+  margin: 0 20px;
   font-weight: bold;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .used {
-  margin:0 20px;
+  margin: 0 20px;
   padding: 5px 10px;
   color: white;
 }
@@ -78,13 +78,17 @@
 .seeproject {
   position: absolute;
   bottom: 0;
-  margin:10px 20px;
+  margin: 10px 20px;
 }
 
 .hidden {
   display: none;
 }
 
-.promotedfirst:hover .hidden {
+.promotedfirst:hover .hidden,
+.promotedsecond:hover .hidden,
+.promotedgroup1:hover .hidden,
+.promotedgroup2:hover .hidden,
+.promotedgroup3:hover .hidden {
   display: block;
 }
