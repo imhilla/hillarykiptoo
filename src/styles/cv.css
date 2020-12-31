@@ -1,33 +1,41 @@
-.cv {
-  padding: 2em;
-  width: 40%;
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
 }
-
-.pdf {
-  background-color: black;
-  color: white;
-  padding: 5px 10px;
-  width: 15%;
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
 }
+@media only screen and (max-width: 425px) {
+  .cv {
+    margin: 1em;
+  }
 
-.resumetitle {
-  font-weight: bold;
-  margin: 1em 0 0 0;
-  color: black;
-  font-size: 20px;
-}
+  .pdf {
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+    width: 15%;
+    text-align: center;
+  } 
 
-.gmailpropmt {
-  font-size: 15px;
-  margin: 0.5em 0 0 0;
-}
+ .resumetitle {
+    font-weight: bold;
+    margin: 1em 0 0 0;
+    color: black;
+    font-size: 20px;
+  } 
 
-.downloadbutton {
-  padding: 5px 15px;
-  font-size: 14px;
-  background-color: blue;
-  color: white;
-  border-radius: 10px;
-  border: none;
-  margin: 0.5em 0 0 0;
+   .gmailpropmt {
+    font-size: 15px;
+    margin: 0.5em 0 0 0;
+  } 
+
+   .downloadbutton {
+    padding: 5px 15px;
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 0.5em 0 0 0;
+  } 
 }

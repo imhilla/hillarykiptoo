@@ -9,23 +9,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 4em;
+    margin: 1em;
   }
 
-  .contactContainer h1 {
+ .contactContainer h1 {
     font-weight: bold;
     font-size: 20px;
-    padding-top: 2em;
+    padding-bottom: 1em;
   }
 
   .contact-form {
     display: flex;
     flex-direction: column;
-    width: 85vw;
+    width: 100%;
   }
-
+ /* 
   .contactContainer p {
     width: 60%;
     padding: 1em;
-  }
+  } */
 }
