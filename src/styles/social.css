@@ -46,4 +46,11 @@
       transform: translate3d(4px, 0, 0);
     }
   }
+
+  .contactme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em;
+  }
 }
