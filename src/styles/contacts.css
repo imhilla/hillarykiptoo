@@ -15,7 +15,7 @@
  .contactContainer h1 {
     font-weight: bold;
     font-size: 20px;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
   }
 
   .contact-form {
@@ -23,9 +23,8 @@
     flex-direction: column;
     width: 100%;
   }
- /* 
+ 
   .contactContainer p {
-    width: 60%;
     padding: 1em;
-  } */
+  } 
 }

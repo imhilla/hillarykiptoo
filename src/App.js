@@ -60,8 +60,8 @@ function App() {
         <Cv currentColor={currentColor} reverseColor={reverseColor} />
       </div>
       <Contact />
-      {/* <Social2 /> */}
-      {/* <div className="copyright">Coded with ❤️ by @Hillary</div> */}
+      <Social2 />
+      <div className="copyright">Coded with ❤️ by @Hillary</div>
     </div>
   );
 }
