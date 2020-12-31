@@ -39,13 +39,11 @@ function App() {
 
       <div className="appContainer">
         <div className="hiphoto">
+          <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
+            <Photo currentColor={currentColor} reverseColor={reverseColor} />
+          </Animated>
           <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
             <Hi currentColor={currentColor} reverseColor={reverseColor} />
-          </Animated>
-          <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
-            <div>
-              <Photo currentColor={currentColor} reverseColor={reverseColor} />
-            </div>
           </Animated>
         </div>
         <div className="quotesocial">
@@ -56,14 +54,14 @@ function App() {
         </div>
       </div>
       {/* <Image /> */}
-      <Best currentColor={currentColor} reverseColor={reverseColor} />
-      <div className="cvskills">
+      {/* <Best currentColor={currentColor} reverseColor={reverseColor} /> */}
+      {/* <div className="cvskills">
         <Skills currentColor={currentColor} reverseColor={reverseColor} />
-        <Cv />
-      </div>
-      <Contact />
-      <Social2 />
-      <div className="copyright">Coded with ❤️ by @Hillary</div>
+        <Cv currentColor={currentColor} reverseColor={reverseColor} />
+      </div> */}
+      {/* <Contact /> */}
+      {/* <Social2 /> */}
+      {/* <div className="copyright">Coded with ❤️ by @Hillary</div> */}
     </div>
   );
 }

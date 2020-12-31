@@ -5,11 +5,12 @@ export default function Hi(props) {
   console.log(props.currentColor)
   return (
     <div className="hiContainer" style={{ backgroundColor: `${props.currentColor.color}` }}>
-      <div className="emoji">🤓</div>
+      <div className="emoji" style={{ color: `${props.reverseColor.reverse}` }}>Hi 👋</div>
       <div className="hiDescription" style={{ color: `${props.reverseColor.reverse}` }}>
         <FadeIn>
-          <h1 className="text">Hi, my name is Hillary.</h1>
-          <h1 className="text">I am software developer.</h1>
+          <h1 className="text">I'm Hillary a Fullstack developer</h1>
+          <h1 className="text">I want to <span className="makethings"
+            style={{ color: `${props.reverseColor.reverse}` }}>make things</span> that <span className="difference">make difference</span> </h1>
           <Typewriter
             options={{
               strings: [
@@ -19,10 +20,10 @@ export default function Hi(props) {
                 'CSS',
                 'JavaScript',
                 'React and Redux',
-                'TDD',
                 'Ruby',
                 'Ruby on Rails',
                 'Data structures and Algorithms',
+                'And more...',
                 'Contact me 😊',
               ],
               autoStart: true,

@@ -1,105 +1,110 @@
-.quotes {
-  /* padding-top: 3em; */
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
 }
-
-.blockquote {
-  position: relative;
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
 }
-
-.blockquote p {
-  font-size: 14px;
-  text-align: center;
-}
-
-.blockquote::after {
-  content: "";
-  top: 20px;
-  left: 50%;
-  margin-left: -100px;
-  position: absolute;
-  border-bottom: 3px solid #bf0024;
-  height: 3px;
-  width: 200px;
-}
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
-.otro-blockquote {
-  font-style: italic;
-  padding: 1.2em 30px 1.2em 75px;
-  border-left: 8px solid #78c0a8;
-  line-height: 1.6;
-  position: relative;
-}
-
-.otro-blockquote::before {
-  font-family: Arial;
-  content: "\201C";
-  color: #78c0a8;
-  font-size: 4em;
-  position: absolute;
-  left: 10px;
-  top: -10px;
-}
-
-.otro-blockquote::after {
-  content: "";
-}
-
-.otro-blockquote span {
-  display: block;
-  font-style: normal;
-  font-weight: bold;
-}
-
-.fade-in {
-  animation: fadeIn ease 3s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
+@media only screen and (max-width: 425px) {
+  .blockquote {
+    position: relative;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
+  .blockquote p {
+    font-size: 14px;
+    text-align: center;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
+  .blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px solid #bf0024;
+    height: 3px;
+    width: 200px;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+  .otro-blockquote {
+    font-style: italic;
+    padding: 1em 10px 1em 40px;
+    border-left: 8px solid blue;
+    line-height: 1.6;
+    position: relative;
+    margin: 1em;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
+  .otro-blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: blue;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
   }
-  100% {
-    opacity: 1;
+
+  .otro-blockquote::after {
+    content: "";
+  }
+
+  .otro-blockquote span {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }

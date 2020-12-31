@@ -1,4 +1,21 @@
-.quotesocial {
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+  .hiphoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    padding: 1em;
+
+  }
+}
+
+/* .quotesocial {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -26,7 +43,6 @@
 }
 
 .mywork {
-  /* font-size: 20px; */
   margin: 0 2em;
 }
 
@@ -56,4 +72,4 @@
   60% {
     transform: translateY(-10px);
   }
-}
+} */

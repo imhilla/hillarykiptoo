@@ -1,13 +1,36 @@
-.hiDescription {
-  min-height: 50vh;
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
 }
-
-.emoji {
-  font-size: 30px;
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
 }
+@media only screen and (max-width: 425px) {
+  /* .hiDescription {
+    min-height: 70vh;
+  } */
 
-.hiDescription,
-.hiDescription h1 {
-  font-size: 40px;
-  font-weight: bolder;
+  .emoji {
+    font-size: 30px;
+    padding: 0.5em 0 0.5em 0;
+  }
+
+  .hiDescription,
+  .hiDescription h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 30px;
+  }
+
+  .makethings {
+    background-color: blue;
+    padding: 3px;
+  }
+
+  .difference {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-size: 20px;
+    text-decoration-style: wavy;
+    height: 10px;
+  }
 }
