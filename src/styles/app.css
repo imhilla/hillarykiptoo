@@ -1,9 +1,10 @@
 @media only screen and (max-width: 1200px) {
-  /*Tablets [601px -> 1200px]*/
+
 }
 @media only screen and (max-width: 600px) {
-  /*Big smartphones [426px -> 600px]*/
+
 }
+
 @media only screen and (max-width: 425px) {
   .hiphoto {
     display: flex;

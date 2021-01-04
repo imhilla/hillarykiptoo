@@ -1,8 +1,7 @@
-@media only screen and (max-width: 1200px) {
-  /*Tablets [601px -> 1200px]*/
+ @media only screen and (max-width: 1200px) {
 }
+
 @media only screen and (max-width: 600px) {
-  /*Big smartphones [426px -> 600px]*/
 }
 @media only screen and (max-width: 425px) {
   .mybest {
@@ -14,25 +13,6 @@
     font-size: 1em;
     padding: 0 0 10px 0;
   }
-
-  /* .promoted {
-    display: flex;
- 
-
-   .promotedfirst {
-    padding: 0 20px 0 0;
-  } 
-
-  .promotedsecond {
-    padding: 0 0 0 20px;
-  } } 
-
-  .group {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  */
  
   .promotedgroup1 {
     height: 30vh;
@@ -101,4 +81,4 @@
   .promotedgroup3:hover .hidden {
     display: block;
   }
-}
+} 
