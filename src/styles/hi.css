@@ -2,6 +2,32 @@
   .hiContainer {
     width: 40vw;
   }
+
+  .text {
+    background-color: white;
+    width: fit-content;
+    line-height: 4px;
+    padding: 0 7px 1.3em 7px;
+    margin: 1em 0;
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, blue 50%) right;
+    background-size: 200%;
+    transition: 1.3s ease-out;
+  }
+
+  .text2 {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 1.5em 0;
+  }
+
+  .text3 {
+    padding: 1em 0;
+  }
+
+  .typewriter {
+    font-weight: bold;
+    font-size: 30px;
+  }
 }
 @media only screen and (max-width: 600px) {
 }
