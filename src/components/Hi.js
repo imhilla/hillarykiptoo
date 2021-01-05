@@ -9,7 +9,7 @@ export default function Hi(props) {
       <div className="hiDescription" style={{ color: `${props.reverseColor.reverse}` }}>
         <FadeIn>
           <h1 className="text"><span className="hiitalic">I'm </span> <span className="name">Hillary Kiptoo</span></h1>
-          <h1 className="text">
+          <h1>
             Software developer specializing in bringing ideas, designs into real Human centered programs.
           </h1>
           <h2 className="makethings"

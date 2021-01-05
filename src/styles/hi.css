@@ -2,6 +2,14 @@
   .hiContainer {
     width: 40vw;
   }
+
+  .text {
+    background-color:blue;
+    width: fit-content;
+    line-height: 4px;
+    padding: 0 7px 1.3em 7px;
+    margin-top: 1em;
+  }
 }
 @media only screen and (max-width: 600px) {
 }
