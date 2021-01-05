@@ -6,7 +6,7 @@ export default function Photo(props) {
     <div className="photocontainer">
       <img src={dots} alt="React Logo" className="dots1" />
       <img src={dots} alt="React Logo" className="dots2" />
-      {/*<img src={dots} alt="React Logo" className="dots3" /> */}
+      <img src={dots} alt="React Logo" className="dots3" />
       <img src={photoSvg} alt="React Logo" className="svgphoto" />
     </div>
   )
