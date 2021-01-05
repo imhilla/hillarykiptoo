@@ -1,12 +1,12 @@
-import photoSvg from '../images/dotstransparent.png'
-import dots from '../images/hipic.jpg'
+import dots from '../images/dotstransparent.png'
+import photoSvg from '../images/hipic.jpg'
 
 export default function Photo(props) {
   return (
     <div className="photocontainer">
-      <div>
-        <img src={dots} alt="React Logo" className="dots1" />
-      </div>
+      <img src={dots} alt="React Logo" className="dots1" />
+      <img src={dots} alt="React Logo" className="dots2" />
+      {/*<img src={dots} alt="React Logo" className="dots3" /> */}
       <img src={photoSvg} alt="React Logo" className="svgphoto" />
     </div>
   )

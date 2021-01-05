@@ -39,7 +39,7 @@ function App() {
       <div className="appContainer">
         <div className="hiphoto">
           <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
-            <Hi currentColor={currentColor} reverseColor={reverseColor} />
+            <Hi currentColor={currentColor} reverseColor={reverseColor}  />
           </Animated>
           <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
             <Photo currentColor={currentColor} reverseColor={reverseColor} />

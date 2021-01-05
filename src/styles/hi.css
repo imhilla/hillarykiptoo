@@ -1,10 +1,14 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
+  .hiContainer {
+    width: 40vw;
+  }
 }
 @media only screen and (max-width: 600px) {
 }
 
 @media only screen and (min-width: 1024px) {
-  .emoji, .name {
+  .emoji,
+  .name {
     font-family: "Abril Fatface", cursive;
     font-size: 40px;
   }

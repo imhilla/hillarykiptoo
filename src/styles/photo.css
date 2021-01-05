@@ -1,0 +1,20 @@
+.photocontainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+.svgphoto {
+  width: 100%;
+  height: auto;
+}
+
+.dots1 {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  z-index: -100;
+}

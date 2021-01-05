@@ -1,8 +1,18 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
+  .appContainer {
+    padding: 0 5em;
+  }
 
+  .hiphoto {
+    display: flex;
+    width: 100%;
+  }
+
+  .hiwidth {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 600px) {
-
 }
 
 @media only screen and (max-width: 425px) {
@@ -36,5 +46,5 @@
     60% {
       transform: translateY(-10px);
     }
-  } 
+  }
 }
