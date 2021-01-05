@@ -39,6 +39,7 @@
     height: 1em;
   }
 }
+
 @media only screen and (max-width: 600px) {
 }
 
@@ -82,9 +83,11 @@
     height: 10px;
   }
 }
+
 .bounce {
   animation: bounce 2s infinite;
 }
+
 @keyframes bounce {
   0%,
   20%,
