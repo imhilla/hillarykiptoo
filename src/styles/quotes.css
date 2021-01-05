@@ -1,7 +1,111 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
+  .blockquote {
+    position: relative;
+  }
+
+  .blockquote p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px solid #bf0024;
+    height: 3px;
+    width: 200px;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+  .otro-blockquote {
+    font-style: italic;
+    padding: 1em 10px 1em 40px;
+    border-left: 8px solid blue;
+    line-height: 1.6;
+    position: relative;
+    margin: 2em 0 0 0;
+  }
+
+  .otro-blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: blue;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+  }
+
+  .otro-blockquote::after {
+    content: "";
+  }
+
+  .otro-blockquote span {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
+
 @media only screen and (max-width: 600px) {
 }
+
 @media only screen and (max-width: 425px) {
   .blockquote {
     position: relative;

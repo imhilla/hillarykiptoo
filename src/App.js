@@ -4,7 +4,6 @@ import { Animated } from "react-animated-css";
 import Hi from '../src/components/Hi';
 import Quotes from '../src/components/Quotes';
 import Social from '../src/components/Social';
-import { StickyContainer, Sticky } from 'react-sticky';
 import Image from './components/Myimage';
 import Best from './components/Best';
 import Cv from './components/Cv';
@@ -29,28 +28,24 @@ import './styles/photo.css';
 function App() {
   const currentColor = useSelector(state => state.getMode);
   const reverseColor = useSelector(state => state.getMode);
-  // console.log(currentColor, reverseColor);
   return (
     <div className="App" style={{ backgroundColor: `${currentColor.color}` }}>
-
-      {/* <StickyContainer> */}
       <Header className="header" id="myHeader" />
-      {/* </StickyContainer> */}
       <div className="appContainer">
         <div className="hiphoto">
           <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
-            <Hi currentColor={currentColor} reverseColor={reverseColor}  />
+            <Hi currentColor={currentColor} reverseColor={reverseColor} />
           </Animated>
           <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
             <Photo currentColor={currentColor} reverseColor={reverseColor} />
           </Animated>
           <Social currentColor={currentColor} reverseColor={reverseColor} />
         </div>
-        {/* <div className="quotesocial">
+        <div className="quotesocial">
           <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible={true}>
             <Quotes currentColor={currentColor} reverseColor={reverseColor} />
           </Animated>
-        </div> */}
+        </div>
       </div>
       {/* <Image /> */}
       {/* <Best currentColor={currentColor} reverseColor={reverseColor} /> */}
