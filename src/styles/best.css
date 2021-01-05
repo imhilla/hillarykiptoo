@@ -20,21 +20,22 @@
   }
 
   .promotedgroup1 {
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     position: relative;
     margin-bottom: 1em;
   }
 
   .promotedgroup2 {
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     position: relative;
     margin-bottom: 1em;
+    margin: 0 1em;
   }
 
   .promotedgroup3 {
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     position: relative;
     margin-bottom: 1em;
