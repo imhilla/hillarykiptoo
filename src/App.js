@@ -48,7 +48,7 @@ function App() {
         </div>
       </div>
       {/* <Image /> */}
-      {/* <Best currentColor={currentColor} reverseColor={reverseColor} /> */}
+      <Best currentColor={currentColor} reverseColor={reverseColor} />
       {/* <div className="cvskills">
         <Skills currentColor={currentColor} reverseColor={reverseColor} />
         <Cv currentColor={currentColor} reverseColor={reverseColor} />
