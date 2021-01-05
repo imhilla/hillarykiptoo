@@ -1,17 +1,40 @@
 .photocontainer {
-  border-radius: 84% 48% 70% 43% / 85% 64% 65% 55%;
-  padding: 1em;
-  height: 50vh;
-  width: auto;
+  position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
+  width: 60%;
+  margin: auto;
 }
 
 .svgphoto {
-  padding: 1em;
-}
-
-.svgphoto {
-  height: auto;
   width: 100%;
+  height: auto;
+}
+
+.dots1 {
+  position: absolute;
+  top: 0;
+  left: -90px;
+  z-index: -100;
+  height: 150px;
+  width: 75px;
+}
+
+.dots2 {
+  position: absolute;
+  bottom: 0;
+  transform: rotate(90deg);
+  left: -50px;
+  height: 150px;
+  width: 75px;
+}
+
+.dots3 {
+  position: absolute;
+  top: 50;
+  right: -50px;
+  height: 150px;
+  width: 75px;
+  z-index: -10;
 }
