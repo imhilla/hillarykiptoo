@@ -1,3 +1,7 @@
+.navbar {
+  font-family: "Roboto Mono", monospace;
+}
+
 @media only screen and (max-width: 1023.9px) {
   .navitemscontainer {
     display: inline-flex;
@@ -10,6 +14,14 @@
     padding-bottom: 2em;
     font-weight: bold;
   }
+
+  .small-hide {
+    display: none;
+  }
+
+  .navitemscontainer {
+    padding: 1em;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -20,6 +32,11 @@
   .nav-items {
     padding-right: 2em;
     font-weight: bold;
+  }
+
+  .hide {
+    display: none;
+    /* color: rgb(75, 75, 75); */
   }
 }
 
@@ -39,6 +56,20 @@
   outline: transparent;
 }
 
-nav {
-  border-bottom: 0.5px solid black;
+.logodots {
+  color: rgb(149, 149, 255);
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.navbar-menu {
+  padding: 0.5em;
+}
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 425px) {
 }

@@ -1,8 +1,13 @@
-import photoSvg from '../images/photo.svg'
+import photoSvg from '../images/dotstransparent.png'
+import dots from '../images/hipic.jpg'
+
 export default function Photo(props) {
   return (
-    <div className="photocontainer" style={{ backgroundColor: `${props.reverseColor.reverse}` }}>
-      <img src={photoSvg} alt="React Logo" className="svgphoto"/>
+    <div className="photocontainer">
+      <div>
+        <img src={dots} alt="React Logo" className="dots1" />
+      </div>
+      <img src={photoSvg} alt="React Logo" className="svgphoto" />
     </div>
   )
 }

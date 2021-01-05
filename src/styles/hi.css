@@ -1,7 +1,19 @@
 @media only screen and (max-width: 1200px) {
 }
-
 @media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .emoji, .name {
+    font-family: "Abril Fatface", cursive;
+    font-size: 40px;
+  }
+
+  .hiitalic {
+    font-family: "Abril Fatface", cursive;
+    font-family: "IM Fell French Canon", serif;
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
