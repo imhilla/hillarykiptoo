@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { FaAngleDoubleDown } from 'react-icons/fa';
 import FadeIn from 'react-fade-in';
 import Typewriter from 'typewriter-effect';
 
@@ -7,7 +8,7 @@ export default function Hi(props) {
   console.log(props.currentColor)
 
   useEffect(() => {
-    setTimeout(function(){ setPosition('left'); }, 3000);
+    setTimeout(function () { setPosition('left'); }, 3000);
     console.log(position)
   });
 
@@ -31,7 +32,6 @@ export default function Hi(props) {
             I am proefficient in
           </h3>
           <Typewriter
-            className="typewriter"
             options={{
               strings: [
                 'HTML ',
@@ -49,6 +49,10 @@ export default function Hi(props) {
               loop: true,
             }}
           />
+          <div className="contactme">
+            {/* <button className="button">Contact me</button> */}
+            <a href="#" style={{ color: `${props.reverseColor.reverse}` }}><FaAngleDoubleDown className="downbutton bounce" />Explore me</a>
+          </div>
         </FadeIn>
       </div>
     </div>

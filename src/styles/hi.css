@@ -28,11 +28,17 @@
     font-weight: bold;
     font-size: 30px;
   }
-}
-@media only screen and (max-width: 600px) {
-}
 
-@media only screen and (min-width: 1024px) {
+  .downbutton {
+    font-size: 1em;
+    padding: -10px 0 0 0;
+    margin: 0.5em 0.3em 0 0;
+  }
+
+  .contactme {
+    height: 1em;
+  }
+
   .emoji,
   .name {
     font-family: "Abril Fatface", cursive;
@@ -46,7 +52,38 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1023.9px) {
+  .text {
+    background-color: white;
+    width: fit-content;
+    line-height: 4px;
+    padding: 0 7px 1.3em 7px;
+    margin: 1em 0;
+    background: linear-gradient(to left, rgb(255, 255, 255) 50%, blue 50%) right;
+    background-size: 200%;
+    transition: 1.3s ease-out;
+  }
+
+  .text2 {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 1.5em 0;
+  }
+
+  .text3 {
+    padding: 1em 0;
+  }
+
+  .typewriter {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .downbutton {
+    font-size: 1em;
+    margin: 0.5em 0.3em 0 0;
+  }
+
   .emoji {
     font-size: 30px;
     padding: 0.5em 0 0.5em 0;
@@ -54,14 +91,8 @@
 
   .hiDescription,
   .hiDescription h1 {
-    font-size: 20px;
     font-weight: bolder;
     line-height: 30px;
-  }
-
-  .makethings {
-    background-color: blue;
-    padding: 3px;
   }
 
   .difference {
@@ -70,5 +101,37 @@
     font-size: 20px;
     text-decoration-style: wavy;
     height: 10px;
+  }
+
+  .emoji,
+  .name {
+    font-family: "Abril Fatface", cursive;
+    font-size: 30px;
+  }
+
+  .hiitalic {
+    font-family: "Abril Fatface", cursive;
+    font-family: "IM Fell French Canon", serif;
+    font-size: 30px;
+  }
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-10px);
   }
 }

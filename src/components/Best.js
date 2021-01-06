@@ -4,7 +4,7 @@ export default function Best(props) {
 
   return (
     <div className="mybest">
-      <h1>My best</h1>
+      <h1>LATEST WORKS</h1>
       <div className="promoted">
         <div className="promotedfirst"
           style={{

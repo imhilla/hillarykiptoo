@@ -1,10 +1,29 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
+  .skillsContainer {
+    width: 100%;
+  }
+
+  .skillswhole {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skillsheader {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .languages {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.3em;
+    font-size: 13px;
+    justify-content: space-between;
+  }
+
 }
 
-@media only screen and (max-width: 600px) {
-}
-
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1023.9px) {
   .skillsContainer {
     width: 100%;
   }
@@ -18,13 +37,13 @@
     font-weight: bold;
   }
 
-   .languages {
+  .languages {
     display: flex;
     border-bottom: 1px solid black;
     padding-bottom: 0.3em;
     font-size: 13px;
-  } 
-   .languages p {
+  }
+  .languages p {
     margin-right: 0.3em;
-  } 
+  }
 }

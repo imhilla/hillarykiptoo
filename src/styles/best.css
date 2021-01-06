@@ -1,9 +1,95 @@
- @media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
+  .promoted {
+    display: flex;
+    margin-bottom: 1em;
+  }
+
+  .group {
+    display: flex;
+  }
+
+  .mybest {
+    margin: 2em 5em;
+    justify-content: space-between;
+  }
+
+  .mybest h1 {
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0 0 10px 0;
+  }
+
+  .promotedgroup1 {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 1em;
+  }
+
+  .promotedgroup2 {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 1em;
+    margin: 0 1em;
+  }
+
+  .promotedgroup3 {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 1em;
+  }
+
+  .promotedfirst {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    margin: 0 2em 0 0;
+  }
+
+  .promotedsecond {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    margin: 0 0 0 2em;
+  }
+
+  .best-title {
+    margin: 0 20px;
+    font-weight: bold;
+  }
+
+  .usedContainer {
+    display: flex;
+  }
+
+  .used {
+    margin: 0 10px;
+    padding: 2px 5px;
+    color: white;
+  }
+
+  .seeproject {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 20px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .promotedfirst:hover .hidden,
+  .promotedsecond:hover .hidden,
+  .promotedgroup1:hover .hidden,
+  .promotedgroup2:hover .hidden,
+  .promotedgroup3:hover .hidden {
+    display: block;
+  }
 }
 
-@media only screen and (max-width: 600px) {
-}
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1023.9px) {
   .mybest {
     margin: 0 1em;
   }
@@ -13,7 +99,7 @@
     font-size: 1em;
     padding: 0 0 10px 0;
   }
- 
+
   .promotedgroup1 {
     height: 30vh;
     width: 100%;
@@ -81,4 +167,4 @@
   .promotedgroup3:hover .hidden {
     display: block;
   }
-} 
+}

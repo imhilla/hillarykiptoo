@@ -1,10 +1,36 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
+  .pdf {
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+    width: 15%;
+    text-align: center;
+  }
+
+  .resumetitle {
+    font-weight: bold;
+    margin: 1em 0 0 0;
+    color: black;
+    font-size: 20px;
+  }
+
+  .gmailpropmt {
+    font-size: 15px;
+    margin: 0.5em 0 0 0;
+  }
+
+  .downloadbutton {
+    padding: 5px 15px;
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 0.5em 0 0 0;
+  }
 }
 
-@media only screen and (max-width: 600px) {
-}
-
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1023.9px) {
   .cv {
     margin: 1em;
   }
@@ -13,23 +39,23 @@
     background-color: black;
     color: white;
     padding: 5px 8px;
-    width: 15%;
+    /* width: 15%; */
     text-align: center;
-  } 
+  }
 
- .resumetitle {
+  .resumetitle {
     font-weight: bold;
     margin: 1em 0 0 0;
     color: black;
     font-size: 20px;
-  } 
+  }
 
-   .gmailpropmt {
+  .gmailpropmt {
     font-size: 15px;
     margin: 0.5em 0 0 0;
-  } 
+  }
 
-   .downloadbutton {
+  .downloadbutton {
     padding: 5px 15px;
     font-size: 14px;
     background-color: blue;
@@ -37,5 +63,5 @@
     border-radius: 10px;
     border: none;
     margin: 0.5em 0 0 0;
-  } 
-} 
+  }
+}
