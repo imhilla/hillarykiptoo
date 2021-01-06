@@ -55,7 +55,7 @@ function App() {
       </div>
       <Contact currentColor={currentColor} reverseColor={reverseColor} />
       <Social2 currentColor={currentColor} reverseColor={reverseColor} />
-      <div className="copyright">Coded with ❤️ by @Hillary</div>
+      <div className="copyright" style={{color:`${reverseColor.reverse}`}}>Coded with ❤ by @Hillary</div>
     </div>
   );
 }
