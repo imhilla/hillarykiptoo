@@ -54,7 +54,7 @@ function App() {
         <Cv currentColor={currentColor} reverseColor={reverseColor} />
       </div>
       <Contact currentColor={currentColor} reverseColor={reverseColor} />
-      <Social2 />
+      <Social2 currentColor={currentColor} reverseColor={reverseColor} />
       <div className="copyright">Coded with ❤️ by @Hillary</div>
     </div>
   );
