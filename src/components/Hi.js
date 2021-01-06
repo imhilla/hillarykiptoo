@@ -14,7 +14,7 @@ export default function Hi(props) {
 
   return (
     <div className="hiContainer" style={{ backgroundColor: `${props.currentColor.color}` }}>
-      <div className="emoji" style={{ color: `${props.reverseColor.reverse}` }}>Hello 👋</div>
+      <div className="emoji" style={{ color: `${props.reverseColor.reverse}` }}>Hello <span className="wave">👋</span></div>
       <div className="hiDescription" style={{ color: `${props.reverseColor.reverse}` }}>
         <FadeIn>
           <h1 className="text" style={{ backgroundPosition: `${position}` }}><span className="hiitalic">I'm </span> <span className="name">Hillary Kiptoo</span></h1>
