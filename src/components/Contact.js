@@ -1,7 +1,6 @@
 import React from 'react';
-// import axios from 'axios';
 import emailjs from 'emailjs-com';
-import apiKeys from '../apikeys';
+// import apiKeys from '../apikeys';
 
 class Contact extends React.Component {
   state = {
@@ -9,12 +8,15 @@ class Contact extends React.Component {
     message: '',
     email: '',
     sent: false,
-    buttonText: 'Send Message'
+    buttonText: 'Send Message',
+    USER_ID: 'user_vBpnQZmQuPMJVP3Jmd6tI',
+    TEMPLATE_ID: 'template_mda622d',
   }
+
 
   formSubmit = (e) => {
     e.preventDefault()
-    emailjs.sendForm('gmail', apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
+    emailjs.sendForm('gmail', this.state.TEMPLATE_ID, e.target, this.state.USER_ID)
       .then(result => {
         alert('Message Sent, I\'ll get back to you shortly', result.text);
       },
