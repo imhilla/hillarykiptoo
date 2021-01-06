@@ -1,10 +1,10 @@
 import { useSelector } from 'react-redux';
 import Header from '../src/components/Header';
 import { Animated } from "react-animated-css";
+import { FaHeart } from "react-icons/fa";
 import Hi from '../src/components/Hi';
 import Quotes from '../src/components/Quotes';
 import Social from '../src/components/Social';
-import Image from './components/Myimage';
 import Best from './components/Best';
 import Cv from './components/Cv';
 import Skills from './components/Skills';
@@ -47,7 +47,6 @@ function App() {
           </Animated>
         </div>
       </div>
-      {/* <Image /> */}
       <Best currentColor={currentColor} reverseColor={reverseColor} />
       <div className="cvskills">
         <Skills currentColor={currentColor} reverseColor={reverseColor} />
@@ -55,7 +54,7 @@ function App() {
       </div>
       <Contact currentColor={currentColor} reverseColor={reverseColor} />
       <Social2 currentColor={currentColor} reverseColor={reverseColor} />
-      <div className="copyright" style={{color:`${reverseColor.reverse}`}}>Coded with ❤ by @Hillary</div>
+      <div className="copyright" style={{color:`${reverseColor.reverse}`}}>Coded with <FaHeart /> by @Hillary</div>
     </div>
   );
 }
