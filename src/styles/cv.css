@@ -1,9 +1,6 @@
 @media only screen and (min-width: 1024px) {
   .pdf {
-    background-color: black;
     color: white;
-    padding: 5px 8px;
-    width: 15%;
     text-align: center;
   }
 
@@ -32,14 +29,11 @@
 
 @media only screen and (max-width: 1023.9px) {
   .cv {
-    margin: 1em;
+    margin: 2em 1em;
   }
 
   .pdf {
-    background-color: black;
     color: white;
-    padding: 5px 8px;
-    /* width: 15%; */
     text-align: center;
   }
 
