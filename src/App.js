@@ -53,8 +53,8 @@ function App() {
         <Skills currentColor={currentColor} reverseColor={reverseColor} />
         <Cv currentColor={currentColor} reverseColor={reverseColor} />
       </div>
-      {/* <Contact /> */}
-      {/* <Social2 /> */}
+      <Contact />
+      <Social2 />
       {/* <div className="copyright">Coded with ❤️ by @Hillary</div> */}
     </div>
   );

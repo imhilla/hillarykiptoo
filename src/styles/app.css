@@ -13,9 +13,9 @@
   }
 
   .cvskills {
-    margin: 0 5em;
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    margin: 0 5em;
   }
 }
 

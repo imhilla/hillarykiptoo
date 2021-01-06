@@ -12,7 +12,7 @@ export default function Social2() {
           <a href={linkedin}><FaLinkedin /></a>
           <p>LinkedIn</p>
         </div>
-        <div className="socialch">
+        <div className="socialtwitter">
           <a href={twitter}><FaTwitter /></a>
           <p>Twitter</p>
         </div>
