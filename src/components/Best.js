@@ -2,6 +2,7 @@ import image1 from '../images/image1.jpg';
 import image5 from '../images/bookstore.png';
 import image3 from '../images/telcars.PNG';
 import image4 from '../images/pokemon.PNG';
+import image2 from '../images/groupify.PNG';
 
 
 export default function Best(props) {
@@ -50,7 +51,7 @@ export default function Best(props) {
         </div>
         <div className="promotedsecond"
           style={{
-            backgroundImage: `url(${image1})`,
+            backgroundImage: `url(${image2})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
