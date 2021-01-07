@@ -17,31 +17,31 @@ export default function Best(props) {
             style={{
               color: props.currentColor.color,
             }}
-          >Title</h1>
+          >FAKEBOOK</h1>
           <div className="hidden">
             <div className="usedContainer">
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>RUBY ON RAILS</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>POSTGRESQL</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>CSS</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>GIT</div>
             </div>
-            <a href="" className="seeproject button">see the project</a>
+            <a href="https://github.com/imhilla/fakebook" className="seeproject button">see the project</a>
           </div>
         </div>
         <div className="promotedsecond"
@@ -55,31 +55,31 @@ export default function Best(props) {
             style={{
               color: props.currentColor.color,
             }}
-          >Title</h1>
+          >GROUPIFY</h1>
           <div className="hidden">
             <div className="usedContainer">
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>RUBY ON RAILS</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>GIT</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>CSS</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>POSTGRESQL</div>
             </div>
-            <a href="" className="seeproject button">see the project</a>
+            <a href="https://github.com/imhilla/groupify" className="seeproject button">see the project</a>
           </div>
         </div>
       </div>
@@ -95,31 +95,31 @@ export default function Best(props) {
           <h1 class="best-title"
             style={{
               color: props.currentColor.color,
-            }}>Title</h1>
+            }}>TELCARS</h1>
           <div className="hidden">
             <div className="usedContainer">
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>RAILS</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>REACT</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>REDUX</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>POSTGRESQL</div>
             </div>
-            <a href="" className="seeproject button">see the project</a>
+            <a href="https://github.com/imhilla/TelCars" className="seeproject button">see the project</a>
           </div>
         </div>
         <div className="promotedgroup2"
@@ -132,31 +132,31 @@ export default function Best(props) {
           <h1 class="best-title"
             style={{
               color: props.currentColor.color,
-            }}>Title</h1>
+            }}>CATALOG OF PRODUCTS</h1>
           <div className="hidden">
             <div className="usedContainer">
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>REACT</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>REDUX</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>API</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>CSS</div>
             </div>
-            <a href="" className="seeproject button">see the project</a>
+            <a href="https://github.com/imhilla/catalogs-of-products" className="seeproject button">see the project</a>
           </div>
         </div>
         <div className="promotedgroup3"
@@ -169,31 +169,31 @@ export default function Best(props) {
           <h1 class="best-title"
             style={{
               color: props.currentColor.color,
-            }}>Title</h1>
+            }}>BOOKSTORE</h1>
           <div className="hidden">
             <div className="usedContainer">
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>REACT</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>REDUX</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>CSS</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>HTML</div>
+                }}>GIT</div>
             </div>
-            <a href="" className="seeproject button">see the project</a>
+            <a href="https://github.com/imhilla/Bookstore" className="seeproject button">see the project</a>
           </div>
         </div>
       </div>
