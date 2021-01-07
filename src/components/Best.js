@@ -1,4 +1,6 @@
 import image1 from '../images/image1.jpg';
+import image5 from '../images/bookstore.png';
+
 
 export default function Best(props) {
 
@@ -161,7 +163,7 @@ export default function Best(props) {
         </div>
         <div className="promotedgroup3"
           style={{
-            backgroundImage: `url(${image1})`,
+            backgroundImage: `url(${image5})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
