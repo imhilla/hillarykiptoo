@@ -1,5 +1,7 @@
 import image1 from '../images/image1.jpg';
 import image5 from '../images/bookstore.png';
+import image3 from '../images/telcars.PNG';
+import image4 from '../images/pokemon.PNG';
 
 
 export default function Best(props) {
@@ -89,7 +91,7 @@ export default function Best(props) {
         <div
           className="promotedgroup1"
           style={{
-            backgroundImage: `url(${image1})`,
+            backgroundImage: `url(${image3})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
@@ -126,7 +128,7 @@ export default function Best(props) {
         </div>
         <div className="promotedgroup2"
           style={{
-            backgroundImage: `url(${image1})`,
+            backgroundImage: `url(${image4})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
