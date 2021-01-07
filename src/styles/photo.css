@@ -38,3 +38,14 @@
   width: 45px;
   z-index: -10;
 }
+@media only screen and (min-width: 1024px) {
+  .photocontainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5em;
+    height: auto;
+    width: 30vw;
+  }
+}
