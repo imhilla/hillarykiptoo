@@ -1,4 +1,4 @@
-import image1 from '../images/image1.jpg';
+import image1 from '../images/fakebook.PNG';
 import image5 from '../images/bookstore.png';
 import image3 from '../images/telcars.PNG';
 import image4 from '../images/pokemon.PNG';

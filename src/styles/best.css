@@ -168,3 +168,8 @@
     display: block;
   }
 }
+
+.best-title {
+  background-color: blue;
+  width: fit-content;
+}
