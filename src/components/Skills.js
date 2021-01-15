@@ -2,6 +2,7 @@ export default function Skills(props) {
 
   return (
     <div className="skillswhole">
+    <a name="SKILLS">SKILLS</a>
       <div className="skillsContainer">
         <h1 className="skillsheader" style={{ color: props.reverseColor.reverse }}>Languages</h1>
         <div className="languages" style={{ color: props.reverseColor.reverse }}>

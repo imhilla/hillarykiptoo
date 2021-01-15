@@ -42,9 +42,9 @@ export default function Header() {
         <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`} style={{ backgroundColor: `${currentColor.color}` }}>
           <div className='navbar-end'>
             <div className='navitemscontainer small-hide'>
-              <a href='/' className='nav-items' style={{ color: `${othercolor}` }}>SKILLS</a>
-              <a href='/' className='nav-items' style={{ color: `${othercolor}` }}>ABOUT ME</a>
-              <a href='/' className='nav-items' style={{ color: `${othercolor}` }}>CONTACT ME</a>
+              <a href='#SKILLS' className='nav-items' style={{ color: `${othercolor}` }}>SKILLS</a>
+              <a href='https://www.linkedin.com/in/hillarykiptoo/'  rel="noreferrer"  target="_blank" className='nav-items' style={{ color: `${othercolor}` }}>ABOUT ME</a>
+              <a href='#CONTACT ME' className='nav-items' style={{ color: `${othercolor}` }}>CONTACT ME</a>
               <button className="darkmode" onClick={changeMode}>{darkMode}</button>
             </div>
           </div>

@@ -41,7 +41,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div className="contactContainer">
-        <h1 style={{ color: `${this.props.reverseColor.reverse}` }}>Contact me</h1>
+          <a name="CONTACT ME" style={{ color: `${this.props.reverseColor.reverse}` }}>CONTACT ME</a>
         <p style={{ color: `${this.props.reverseColor.reverse}` }}>
           If you have an application you are interested in developing,,
           a feature that you need built, or a project that need coding,
