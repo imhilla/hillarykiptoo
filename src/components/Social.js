@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { FaLinkedin, FaTwitter, FaGithub, FaAngleDoubleDown } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 import { Animated } from "react-animated-css";
 
 export default function Social(props) {
