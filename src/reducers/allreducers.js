@@ -1,4 +1,4 @@
-function getMode(state = { color: 'white', reverse: 'darkgray' }, action) {
+function getMode(state = { color: 'white', reverse: '#444444' }, action) {
   switch (action.type) {
     case 'GET_MODE':
       return {

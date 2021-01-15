@@ -18,19 +18,19 @@ export default function Header() {
   }, [dispatch]);
 
   const changeMode = () => {
-    if (currentColor.color === 'white' && reverseColor.reverse === 'darkgray') {
-      dispatch(getMode('darkgray'));
+    if (currentColor.color === 'white' && reverseColor.reverse === '#444444') {
+      dispatch(getMode('#444444'));
       dispatch(setReverse('white'))
     } else {
       dispatch(getMode('white'));
-      dispatch(setReverse('darkgray'))
+      dispatch(setReverse('#444444'))
     }
   }
 
-  const darkMode = currentColor.color === 'darkgray' ? ('🌞') : ('🌙');
-  const logcolor = currentColor.color !== 'darkgray' ? ('black') : ('#4b4b4b')
-  const color = 'white';
-  const othercolor = reverseColor.reverse !== 'darkgray' ? ('white') : ('black')
+  const darkMode = currentColor.color === '#444444' ? ('🌞') : ('🌙');
+  const logcolor = currentColor.color !== '#444444' ? ('#444444') : ('white')
+  const color = currentColor.color !== '#444444' ? ('white') : ('#444444')
+  const othercolor = reverseColor.reverse !== '#444444' ? ('white') : ('black')
 
 
   const navBar = (
