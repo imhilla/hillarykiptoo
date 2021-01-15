@@ -50,12 +50,17 @@ export default function Best(props) {
             <a
               href="https://github.com/imhilla/fakebook"
               className="seeproject button"
+              target="_blank"
+              rel="noreferrer"
               style={{
                 backgroundColor: props.reverseColor.reverse,
                 color: props.currentColor.color,
               }}
             >see the project</a>
-            <a href="/"
+            <a
+              href="/"
+              target="_blank"
+              rel="noreferrer"
               className="livelink button"
               style={{
                 backgroundColor: props.reverseColor.reverse,
@@ -102,12 +107,16 @@ export default function Best(props) {
                 }}>POSTGRESQL</div>
             </div>
             <a href="https://github.com/imhilla/groupify"
+              target="_blank"
+              rel="noreferrer"
               style={{
                 backgroundColor: props.reverseColor.reverse,
                 color: props.currentColor.color,
               }}
               className="seeproject button">see the project</a>
             <a href="/"
+              target="_blank"
+              rel="noreferrer"
               className="livelink button"
               style={{
                 backgroundColor: props.reverseColor.reverse,
@@ -156,6 +165,8 @@ export default function Best(props) {
                 }}>POSTGRESQL</div>
             </div>
             <a href="https://github.com/imhilla/TelCars"
+              target="_blank"
+              rel="noreferrer"
               className="seeproject button"
               style={{
                 backgroundColor: props.reverseColor.reverse,
@@ -164,6 +175,8 @@ export default function Best(props) {
             >see the project</a>
             <a href="/"
               className="livelink button"
+              target="_blank"
+              rel="noreferrer"
               style={{
                 backgroundColor: props.reverseColor.reverse,
                 color: props.currentColor.color,
@@ -208,6 +221,8 @@ export default function Best(props) {
                 }}>CSS</div>
             </div>
             <a href="https://github.com/imhilla/catalogs-of-products"
+              target="_blank"
+              rel="noreferrer"
               className="seeproject button"
               style={{
                 backgroundColor: props.reverseColor.reverse,
@@ -215,6 +230,8 @@ export default function Best(props) {
               }}
             >see the project</a>
             <a href="/"
+              target="_blank"
+              rel="noreferrer"
               className="livelink button"
               style={{
                 backgroundColor: props.reverseColor.reverse,
@@ -261,6 +278,8 @@ export default function Best(props) {
             </div>
             <div>
               <a href="https://github.com/imhilla/Bookstore"
+                target="_blank"
+                rel="noreferrer"
                 className="seeproject button"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
@@ -268,6 +287,8 @@ export default function Best(props) {
                 }}
               >see the project</a>
               <a href="/"
+                target="_blank"
+                rel="noreferrer"
                 className="livelink button"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
