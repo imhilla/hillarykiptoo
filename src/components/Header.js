@@ -36,7 +36,7 @@ export default function Header() {
   const navBar = (
     <nav className='navbar' role='navigation' aria-label='main navigation' style={{ backgroundColor: `${currentColor.color}`, color: `${reverseColor.reverse}` }}>
       <div className='navbar-brand'>
-        <a href='/' className='navbar-item logo-item' style={{ color: `${color}`, backgroundColor: `${logcolor}` }}>
+        <a href='/' onclick="return false;" className='navbar-item logo-item' style={{ color: `${color}`, backgroundColor: `${logcolor}` }}>
           H<span className="logodots">.</span> kiptoo
         </a>
         <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`} style={{ backgroundColor: `${currentColor.color}` }}>
