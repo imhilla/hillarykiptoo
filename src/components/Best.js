@@ -58,7 +58,7 @@ export default function Best(props) {
               }}
             >see the project</a>
             <a
-              href="/"
+              href="https://facebook-newclone.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
               className="livelink button"
