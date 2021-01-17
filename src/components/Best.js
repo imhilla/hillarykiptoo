@@ -9,7 +9,10 @@ export default function Best(props) {
 
   return (
     <div className="mybest">
-      <h1>LATEST WORKS</h1>
+      <h1 style={{
+        color: props.reverseColor.reverse,
+      }}
+      >LATEST WORKS</h1>
       <div className="promoted">
         <div className="promotedfirst"
           style={{

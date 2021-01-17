@@ -2,7 +2,10 @@ export default function Skills(props) {
 
   return (
     <div className="skillswhole">
-    <a name="SKILLS" href="/">SKILLS</a>
+      <a name="SKILLS" href="/" style={{
+        color: props.reverseColor.reverse,
+        fontWeight: 'bold',
+      }}>SKILLS</a>
       <div className="skillsContainer">
         <h1 className="skillsheader" style={{ color: props.reverseColor.reverse }}>Languages</h1>
         <div className="languages" style={{ color: props.reverseColor.reverse }}>
@@ -14,7 +17,7 @@ export default function Skills(props) {
       </div>
       <div>
         <h1 className="skillsheader" style={{ color: props.reverseColor.reverse }}>Frameworks</h1>
-        <div className="languages"  style={{ color: props.reverseColor.reverse }}>
+        <div className="languages" style={{ color: props.reverseColor.reverse }}>
           <p>Bootstrap</p>
           <p>Ruby on Rails</p>
           <p>Rspec</p>
