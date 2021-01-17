@@ -17,19 +17,21 @@ export default function Hi(props) {
       <div className="emoji" style={{ color: `${props.reverseColor.reverse}` }}>Hello <span className="wave">👋</span></div>
       <div className="hiDescription" style={{ color: `${props.reverseColor.reverse}` }}>
         <FadeIn>
-          <h1 className="text" style={{ backgroundPosition: `${position}` }}><span className="hiitalic">I'm </span> <span className="name">Hillary Kiptoo</span></h1>
+          <h1 className="text" style={{ backgroundPosition: `${position}` }}><span className="hiitalic">I'm </span>
+            <span className="name">Hillary Kiptoo</span></h1>
           <h1 className="text2">
             Software developer specializing in bringing ideas, designs into real Human centered programs.
           </h1>
           <h2 className="makethings"
             style={{ color: `${props.reverseColor.reverse}` }}>
-            Over the last two years, i gained meaningful experience in software developemnt
-            while working with clients, teams, through mixed approaches, based on Design thinking
-            Lean aproaches, Agile developemnts, Continues Intergration, MVP while also tryng to develop my skills.
+            Over the last two years, I gained meaningful experience in software development
+            while working with clients, teams, through mixed approaches, based on Design thinking Lean approaches,
+            Agile development,
+            Continues Integration, MVP while also trying to develop my skills.
           </h2>
           <h3 className="text3">
-            During the pandemic i revamped my skills and fully became a profesional remote software developer.
-            I am proefficient in
+            During the pandemic, I revamped my skills and fully became a professional remote software developer.
+            I am pro efficient in
           </h3>
           <Typewriter
             options={{
