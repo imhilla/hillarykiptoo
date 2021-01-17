@@ -31,9 +31,9 @@ export default function Best(props) {
             <div className="usedContainer">
               <div className="used"
                 style={{
-                  backgroundColor: props.reverseColor.reverse, paddingLeft: 10, paddingRight: 10, paddingTop: 5,
+                  backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>RUBY ON RAILS</div>
+                }}>RAILS</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
@@ -83,7 +83,7 @@ export default function Best(props) {
           <h1 class="best-title"
             style={{
               color: props.currentColor.color,
-              backgroundColor: props.reverseColor.reverse, paddingLeft: 10, paddingRight: 10, paddingTop: 5,
+              backgroundColor: props.reverseColor.reverse,
             }}
           >GROUPIFY</h1>
           <div className="hidden">
@@ -92,7 +92,7 @@ export default function Best(props) {
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>RUBY ON RAILS</div>
+                }}>RAILS</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
@@ -105,7 +105,7 @@ export default function Best(props) {
                 }}>CSS</div>
               <div className="used"
                 style={{
-                  backgroundColor: props.reverseColor.reverse, paddingLeft: 10, paddingRight: 10, paddingTop: 5,
+                  backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
                 }}>POSTGRESQL</div>
             </div>
@@ -142,7 +142,7 @@ export default function Best(props) {
           <h1 class="best-title"
             style={{
               color: props.currentColor.color,
-              backgroundColor: props.reverseColor.reverse, paddingLeft: 10, paddingRight: 10, paddingTop: 5,
+              backgroundColor: props.reverseColor.reverse,
             }}>TELCARS</h1>
           <div className="hidden">
             <div className="usedContainer">
@@ -158,7 +158,7 @@ export default function Best(props) {
                 }}>REACT</div>
               <div className="used"
                 style={{
-                  backgroundColor: props.reverseColor.reverse, paddingLeft: 10, paddingRight: 10, paddingTop: 5,
+                  backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
                 }}>REDUX</div>
               <div className="used"
@@ -198,7 +198,7 @@ export default function Best(props) {
           <h1 class="best-title"
             style={{
               color: props.currentColor.color,
-              backgroundColor: props.reverseColor.reverse, paddingLeft: 10, paddingRight: 10, paddingTop: 5,
+              backgroundColor: props.reverseColor.reverse,
             }}>CATALOG OF PRODUCTS</h1>
           <div className="hidden">
             <div className="usedContainer">
@@ -254,7 +254,7 @@ export default function Best(props) {
           <h1 class="best-title"
             style={{
               color: props.currentColor.color,
-              backgroundColor: props.reverseColor.reverse, paddingLeft: 10, paddingRight: 10, paddingTop: 5,
+              backgroundColor: props.reverseColor.reverse,
             }}>BOOKSTORE</h1>
           <div className="hidden">
             <div className="usedContainer">
