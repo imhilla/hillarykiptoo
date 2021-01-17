@@ -229,7 +229,7 @@ export default function Best(props) {
                 color: props.currentColor.color,
               }}
             >see the project</a>
-            <a href="/"
+            <a href="https://60042a89ab6d721e53aa755c--agitated-pare-bd7288.netlify.app/"
               target="_blank"
               rel="noreferrer"
               className="livelink button"
