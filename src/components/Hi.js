@@ -50,8 +50,9 @@ export default function Hi(props) {
             }}
           />
           <div className="contactme">
-            {/* <button className="button">Contact me</button> */}
-            <a href="/" style={{ color: `${props.reverseColor.reverse}` }}><FaAngleDoubleDown className="downbutton bounce" />Explore me</a>
+            <a href="/"
+              target="_blank"
+              rel="noreferrer" style={{ color: `${props.reverseColor.reverse}` }}><FaAngleDoubleDown className="downbutton bounce" />Explore me</a>
           </div>
         </FadeIn>
       </div>
