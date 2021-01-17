@@ -286,7 +286,7 @@ export default function Best(props) {
                   color: props.currentColor.color,
                 }}
               >see the project</a>
-              <a href="/"
+              <a href="https://bookstore-2.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="livelink button"
