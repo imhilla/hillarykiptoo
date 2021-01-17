@@ -173,7 +173,7 @@ export default function Best(props) {
                 color: props.currentColor.color,
               }}
             >see the project</a>
-            <a href="/"
+            <a href="https://intense-stream-27935.herokuapp.com/"
               className="livelink button"
               target="_blank"
               rel="noreferrer"
