@@ -68,7 +68,6 @@ export default function Best(props) {
               style={{
                 backgroundColor: props.reverseColor.reverse,
                 color: props.currentColor.color,
-                marginRight: 100,
               }}
             >Live link</a>
           </div>
@@ -124,7 +123,6 @@ export default function Best(props) {
               style={{
                 backgroundColor: props.reverseColor.reverse,
                 color: props.currentColor.color,
-                marginRight: 100,
               }}
             >Live link</a>
           </div>
@@ -183,7 +181,6 @@ export default function Best(props) {
               style={{
                 backgroundColor: props.reverseColor.reverse,
                 color: props.currentColor.color,
-                marginRight: 100,
               }}
             >Live link</a>
           </div>
@@ -239,7 +236,6 @@ export default function Best(props) {
               style={{
                 backgroundColor: props.reverseColor.reverse,
                 color: props.currentColor.color,
-                marginRight: 100,
               }}
             >Live link</a>
           </div>
@@ -296,7 +292,6 @@ export default function Best(props) {
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                  marginRight: 100,
                 }}
               >Live link</a>
             </div>
