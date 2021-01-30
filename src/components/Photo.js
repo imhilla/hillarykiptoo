@@ -1,5 +1,3 @@
-import dots from '../images/dotstransparent.png'
-import photoSvg from '../images/hipic.jpg'
 import photoGIF from '../images/gifgray.gif'
 import photoGIFWhite from '../images/gifwhite.gif'
 
