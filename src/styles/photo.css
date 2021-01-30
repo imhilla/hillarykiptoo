@@ -1,43 +1,8 @@
-.photocontainer {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60vw;
-  margin: auto;
-}
-
 .svgphoto {
   width: 100%;
   height: auto;
 }
 
-.dots1 {
-  position: absolute;
-  top: 0;
-  left: -60px;
-  z-index: -100;
-  height: 100px;
-  width: 45px;
-}
-
-.dots2 {
-  position: absolute;
-  bottom: 0;
-  transform: rotate(90deg);
-  left: -30px;
-  height: 100px;
-  width: 45px;
-}
-
-.dots3 {
-  position: absolute;
-  top: 50;
-  right: -50px;
-  height: 100px;
-  width: 45px;
-  z-index: -10;
-}
 @media only screen and (min-width: 1024px) {
   .photocontainer {
     position: relative;
@@ -46,6 +11,6 @@
     align-items: center;
     margin: 2.5em;
     height: auto;
-    width: 30vw;
+    width: 35vw;
   }
 }
