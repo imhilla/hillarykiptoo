@@ -41,11 +41,11 @@ function App() {
           </Animated>
           <Social currentColor={currentColor} reverseColor={reverseColor} />
         </div>
-        <div className="quotesocial">
+        {/* <div className="quotesocial">
           <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible={true}>
             <Quotes currentColor={currentColor} reverseColor={reverseColor} />
           </Animated>
-        </div>
+        </div> */}
       </div>
       <Best currentColor={currentColor} reverseColor={reverseColor} />
       <div className="cvskills">
