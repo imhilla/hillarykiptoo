@@ -39,7 +39,7 @@ function App() {
           <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
             <Photo currentColor={currentColor} reverseColor={reverseColor} />
           </Animated>
-          <Social currentColor={currentColor} reverseColor={reverseColor} />
+          {/* <Social currentColor={currentColor} reverseColor={reverseColor} /> */}
         </div>
         {/* <div className="quotesocial">
           <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible={true}>
@@ -54,7 +54,7 @@ function App() {
       </div>
       <Contact currentColor={currentColor} reverseColor={reverseColor} />
       <Social2 currentColor={currentColor} reverseColor={reverseColor} />
-      <div className="copyright" style={{color:`${reverseColor.reverse}`}}>Coded with <FaHeart /> by @Hillary</div>
+      <div className="copyright" style={{ color: `${reverseColor.reverse}` }}>Coded with <FaHeart /> by @Hillary</div>
     </div>
   );
 }

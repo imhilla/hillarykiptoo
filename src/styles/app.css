@@ -1,11 +1,14 @@
 @media only screen and (min-width: 1024px) {
-  .appContainer {
+  /* .appContainer {
     padding: 0 5em;
-  }
+  } */
 
   .hiphoto {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    height: 80vh;
   }
 
   .hiwidth {
@@ -37,4 +40,9 @@
     text-align: center;
     padding: 1em;
   }
+}
+
+body {
+  font-family: "Varela Round", sans-serif;
+  padding: 2em 6em;
 }

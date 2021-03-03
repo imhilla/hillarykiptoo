@@ -1,8 +1,3 @@
-#logo {
-  height: 100%;
-  width: auto;
-}
-
 @media only screen and (max-width: 1023.9px) {
   .navitemscontainer {
     display: inline-flex;
@@ -53,11 +48,6 @@
     padding: 10px 20px;
     margin-right: 1em;
   }
-
-  .navbar {
-    font-family: "Roboto Mono", monospace;
-    padding: 2em 6em;
-  }
 }
 
 .logo-item {
@@ -75,14 +65,4 @@
 
 .darkmode:hover {
   outline: transparent;
-}
-
-.logodots {
-  color: rgb(149, 149, 255);
-  font-size: 30px;
-  padding-bottom: 10px;
-}
-
-.navbar-menu {
-  padding: 0.5em;
 }
