@@ -1,5 +1,5 @@
-import photoGIF from '../images/gifgray.gif'
-import photoGIFWhite from '../images/gifwhite.gif'
+import photoGIF from '../images/gifgray.svg'
+import photoGIFWhite from '../images/gifwhite.svg'
 
 
 export default function Photo(props) {

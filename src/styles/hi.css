@@ -1,54 +1,47 @@
 @media only screen and (min-width: 1024px) {
   .hiContainer {
-    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f1f1f1;
   }
 
-  .text {
-    background-color: white;
-    width: fit-content;
-    line-height: 4px;
-    padding: 0 7px 1.3em 7px;
-    margin: 1em 0;
-    background: linear-gradient(to left, rgb(255, 255, 255) 50%, blue 50%) right;
-    background-size: 200%;
-    transition: 1.3s ease-out;
+  .text,
+  .wave {
+    font-size: 60px;
+    font-weight: bold;
   }
 
   .text2 {
+    font-size: 60px;
     font-weight: bold;
-    font-size: 1.4em;
-    padding: 1.5em 0;
   }
 
-  .text3 {
-    padding: 1em 0;
-  }
-
-  .typewriter {
+  .typeWriter {
+    color: blue;
+    font-size: 60px;
     font-weight: bold;
-    font-size: 30px;
-  }
-
-  .downbutton {
-    font-size: 1em;
-    padding: -10px 0 0 0;
-    margin: 0.5em 0.3em 0 0;
-  }
-
-  .contactme {
-    height: 1em;
   }
 
   .emoji,
   .name {
-    font-family: "Abril Fatface", cursive;
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: bold;
   }
 
-  .hiitalic {
-    font-family: "Abril Fatface", cursive;
-    font-family: "IM Fell French Canon", serif;
-    font-size: 40px;
+  .bouncebutton {
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+  }
+
+  .contactme {
+    margin-top: 3em;
+  }
+
+  .passmoti {
+    font-size: 25px;
   }
 }
 
@@ -59,7 +52,6 @@
     line-height: 4px;
     padding: 0 7px 1.3em 7px;
     margin: 1em 0;
-    background: linear-gradient(to left, rgb(255, 255, 255) 50%, blue 50%) right;
     background-size: 200%;
     transition: 1.3s ease-out;
   }
@@ -105,13 +97,10 @@
 
   .emoji,
   .name {
-    font-family: "Abril Fatface", cursive;
     font-size: 30px;
   }
 
   .hiitalic {
-    font-family: "Abril Fatface", cursive;
-    font-family: "IM Fell French Canon", serif;
     font-size: 30px;
   }
 }
@@ -138,8 +127,8 @@
 
 .wave {
   animation-name: wave-animation;
-  animation-duration: 2.5s; 
-  animation-iteration-count: infinite; 
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
   transform-origin: 70% 70%;
   display: inline-block;
 }
@@ -150,7 +139,7 @@
   }
   10% {
     transform: rotate(14deg);
-  } 
+  }
   20% {
     transform: rotate(-8deg);
   }

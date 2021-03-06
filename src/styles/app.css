@@ -1,11 +1,14 @@
 @media only screen and (min-width: 1024px) {
-  .appContainer {
+  /* .appContainer {
     padding: 0 5em;
-  }
+  } */
 
   .hiphoto {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    height: 85vh;
   }
 
   .hiwidth {
@@ -15,12 +18,17 @@
   .cvskills {
     display: flex;
     justify-content: space-between;
-    margin: 0 5em;
   }
-  
+
   .copyright {
     text-align: center;
     padding: 1em;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    padding: 2em 7em;
+    /* background-color: #f1f1f1; */
   }
 }
 
@@ -36,5 +44,11 @@
   .copyright {
     text-align: center;
     padding: 1em;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    padding: 2em 2em;
+    /* background-color: #f1f1f1; */
   }
 }

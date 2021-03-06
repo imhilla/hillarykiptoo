@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getMode, setReverse } from '../actions/index';
+import logo from '../../src/images/hillary.png'
 
 export default function Header() {
   const currentColor = useSelector(state => state.getMode);
@@ -28,27 +29,15 @@ export default function Header() {
   }
 
   const darkMode = currentColor.color === '#444444' ? ('🌞') : ('🌙');
-  const logcolor = currentColor.color !== '#444444' ? ('#444444') : ('white')
-  const color = currentColor.color !== '#444444' ? ('white') : ('#444444')
   const othercolor = reverseColor.reverse !== '#444444' ? ('white') : ('black')
 
 
   const navBar = (
     <nav className='navbar' role='navigation' aria-label='main navigation' style={{ backgroundColor: `${currentColor.color}`, color: `${reverseColor.reverse}` }}>
       <div className='navbar-brand'>
-        <a href='/' onclick="return false;" className='navbar-item logo-item' style={{ color: `${color}`, backgroundColor: `${logcolor}` }}>
-          H<span className="logodots">.</span> kiptoo
+        <a href='/' onclick="return false;" className='navbar-item logo-item' style={{ color: `${othercolor}` }}>
+          Kiptoo
         </a>
-        <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`} style={{ backgroundColor: `${currentColor.color}` }}>
-          <div className='navbar-end'>
-            <div className='navitemscontainer small-hide'>
-              <a href='#SKILLS' className='nav-items' style={{ color: `${othercolor}` }}>SKILLS</a>
-              <a href='https://www.linkedin.com/in/hillarykiptoo/'  rel="noreferrer"  target="_blank" className='nav-items' style={{ color: `${othercolor}` }}>ABOUT ME</a>
-              <a href='#CONTACT ME' className='nav-items' style={{ color: `${othercolor}` }}>CONTACT ME</a>
-              <button className="darkmode" onClick={changeMode}>{darkMode}</button>
-            </div>
-          </div>
-        </div>
 
         <a
           onClick={() => {
@@ -67,11 +56,12 @@ export default function Header() {
       </div>
       <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`} style={{ backgroundColor: `${currentColor.color}` }}>
         <div className='navbar-end'>
-          <div className='navitemscontainer hide'>
-            <a href='/' className='nav-items' style={{ color: `${othercolor}` }}>SKILLS</a>
-            <a href='/' className='nav-items' style={{ color: `${othercolor}` }}>ABOUT ME</a>
-            <a href='/' className='nav-items' style={{ color: `${othercolor}` }}>CONTACT ME</a>
-            <button className="darkmode" onClick={changeMode}>{darkMode}</button>
+          <div className='navitemscontainer'>
+            <a href='#SKILLS' className='nav-items' style={{ color: `${othercolor}` }}>Skills</a>
+            <a href='https://www.linkedin.com/in/hillarykiptoo/' className='nav-items' style={{ color: `${othercolor}` }}>About me</a>
+    
+            <a href='#CONTACT ME' className='nav-items' id="contactme" style={{border: `2px solid  ${othercolor}`, color: `${othercolor}`, borderRadius: '5px'}}>Contact me</a>
+            {/* <button className="darkmode" onClick={changeMode}>{darkMode}</button> */}
           </div>
         </div>
       </div>
