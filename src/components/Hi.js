@@ -22,10 +22,11 @@ export default function Hi(props) {
               options={{
                 strings: [
                   'JavaScript',
-                  'React and Redux',
-                  'Ruby on Rails',
-                  'GraphQL',
+                  'Frontend',
+                  'Backend',
+                  'Full stack',
                   'UX/UI Design',
+                  'Ruby on Rails',
                 ],
                 autoStart: true,
                 loop: true,
@@ -34,6 +35,7 @@ export default function Hi(props) {
             />
           </div>
           <h2 className="text2">Software developer.</h2>
+          <h1 className="passmoti">Passionate, creative, motivated.</h1>
         </FadeIn>
       </div>
       <div className="contactme">

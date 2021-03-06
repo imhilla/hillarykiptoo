@@ -3,42 +3,44 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #f1f1f1;
   }
 
   .text, .wave {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
-    font-family: "Varela Round", sans-serif;
   }
 
   .text2 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
-    font-family: "Varela Round", sans-serif;
   }
 
   .typeWriter {
     color: blue;
-    font-family: "Varela Round", sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
   }
 
   .emoji,
   .name {
-    font-family: "Varela Round", sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
   }
 
   .bouncebutton {
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: blue;
     color: white;
+    font-size: 20px;
   }
 
   .contactme {
     margin-top: 3em;
+  }
+
+  .passmoti {
+    font-size: 25px;
   }
 }
 
@@ -94,13 +96,10 @@
 
   .emoji,
   .name {
-    font-family: "Abril Fatface", cursive;
     font-size: 30px;
   }
 
   .hiitalic {
-    font-family: "Abril Fatface", cursive;
-    font-family: "IM Fell French Canon", serif;
     font-size: 30px;
   }
 }
