@@ -1,6 +1,6 @@
 import image1 from '../images/fakebook.PNG';
 import image5 from '../images/bookstore.png';
-import image3 from '../images/telcars.PNG';
+import image3 from '../images/newsweek.png';
 import image4 from '../images/pokemon.PNG';
 import image2 from '../images/groupify.PNG';
 
@@ -25,6 +25,7 @@ export default function Best(props) {
             style={{
               color: props.currentColor.color,
               backgroundColor: props.reverseColor.reverse,
+              padding: '0 10px',
             }}
           >FAKEBOOK</h1>
           <div className="hidden">
@@ -91,6 +92,7 @@ export default function Best(props) {
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
+                  padding: '0 10px',
                 }}>RAILS</div>
               <div className="used"
                 style={{
@@ -141,31 +143,22 @@ export default function Best(props) {
             style={{
               color: props.currentColor.color,
               backgroundColor: props.reverseColor.reverse,
-            }}>TELCARS</h1>
+              padding: '0 10px',
+            }}>NEWSWEEK</h1>
           <div className="hidden">
             <div className="usedContainer">
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>RAILS</div>
+                }}>HTML</div>
               <div className="used"
                 style={{
                   backgroundColor: props.reverseColor.reverse,
                   color: props.currentColor.color,
-                }}>REACT</div>
-              <div className="used"
-                style={{
-                  backgroundColor: props.reverseColor.reverse,
-                  color: props.currentColor.color,
-                }}>REDUX</div>
-              <div className="used"
-                style={{
-                  backgroundColor: props.reverseColor.reverse,
-                  color: props.currentColor.color,
-                }}>POSTGRESQL</div>
+                }}>CSS</div>           
             </div>
-            <a href="https://github.com/imhilla/TelCars"
+            <a href="https://github.com/imhilla/newsweek"
               target="_blank"
               rel="noreferrer"
               className="seeproject button"
@@ -174,7 +167,7 @@ export default function Best(props) {
                 color: props.currentColor.color,
               }}
             >see the project</a>
-            <a href="https://intense-stream-27935.herokuapp.com/"
+            <a href="https://raw.githack.com/imhilla/newsweek/home-page/index.html"
               className="livelink button"
               target="_blank"
               rel="noreferrer"
@@ -196,6 +189,7 @@ export default function Best(props) {
             style={{
               color: props.currentColor.color,
               backgroundColor: props.reverseColor.reverse,
+              padding: '0 10px',
             }}>CATALOG OF PRODUCTS</h1>
           <div className="hidden">
             <div className="usedContainer">
@@ -251,6 +245,7 @@ export default function Best(props) {
             style={{
               color: props.currentColor.color,
               backgroundColor: props.reverseColor.reverse,
+              padding: '0 10px',
             }}>BOOKSTORE</h1>
           <div className="hidden">
             <div className="usedContainer">
