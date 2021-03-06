@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getMode, setReverse } from '../actions/index';
-import logo from '../../src/images/hillary.png'
+// import { getMode, setReverse } from '../actions/index';
+// import logo from '../../src/images/hillary.png'
 
 export default function Header() {
   const currentColor = useSelector(state => state.getMode);
@@ -18,17 +18,17 @@ export default function Header() {
     };
   }, [dispatch]);
 
-  const changeMode = () => {
-    if (currentColor.color === 'white' && reverseColor.reverse === '#444444') {
-      dispatch(getMode('#444444'));
-      dispatch(setReverse('white'))
-    } else {
-      dispatch(getMode('white'));
-      dispatch(setReverse('#444444'))
-    }
-  }
+  // const changeMode = () => {
+  //   if (currentColor.color === 'white' && reverseColor.reverse === '#444444') {
+  //     dispatch(getMode('#444444'));
+  //     dispatch(setReverse('white'))
+  //   } else {
+  //     dispatch(getMode('white'));
+  //     dispatch(setReverse('#444444'))
+  //   }
+  // }
 
-  const darkMode = currentColor.color === '#444444' ? ('🌞') : ('🌙');
+  // const darkMode = currentColor.color === '#444444' ? ('🌞') : ('🌙');
   const othercolor = reverseColor.reverse !== '#444444' ? ('white') : ('black')
 
 
