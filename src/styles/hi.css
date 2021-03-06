@@ -6,7 +6,8 @@
     background-color: #f1f1f1;
   }
 
-  .text, .wave {
+  .text,
+  .wave {
     font-size: 60px;
     font-weight: bold;
   }
@@ -126,8 +127,8 @@
 
 .wave {
   animation-name: wave-animation;
-  animation-duration: 2.5s; 
-  animation-iteration-count: infinite; 
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
   transform-origin: 70% 70%;
   display: inline-block;
 }
@@ -138,7 +139,7 @@
   }
   10% {
     transform: rotate(14deg);
-  } 
+  }
   20% {
     transform: rotate(-8deg);
   }

@@ -61,7 +61,7 @@ export default function Header() {
             <a href='https://www.linkedin.com/in/hillarykiptoo/' className='nav-items' style={{ color: `${othercolor}` }}>About me</a>
     
             <a href='#CONTACT ME' className='nav-items' id="contactme" style={{border: `2px solid  ${othercolor}`, color: `${othercolor}`, borderRadius: '5px'}}>Contact me</a>
-            <button className="darkmode" onClick={changeMode}>{darkMode}</button>
+            {/* <button className="darkmode" onClick={changeMode}>{darkMode}</button> */}
           </div>
         </div>
       </div>
