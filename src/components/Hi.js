@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { FaAngleDoubleDown } from 'react-icons/fa';
+// import { FaAngleDoubleDown } from 'react-icons/fa';
 import FadeIn from 'react-fade-in';
 import Typewriter from 'typewriter-effect';
 
