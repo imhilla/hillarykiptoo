@@ -1,73 +1,87 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-// import { getMode, setReverse } from '../actions/index';
-// import logo from '../../src/images/hillary.png'
+import React from "react";
+import TypeWriter from "react-typewriter";
 
-export default function Header() {
-  const currentColor = useSelector(state => state.getMode);
-  const reverseColor = useSelector(state => state.getMode);
-  const dispatch = useDispatch();
-  const [, rerender] = useState(false);
-  const [isActive, setisActive] = React.useState(false);
+const Header = ({ data }) => {
+  if (data) {
+    var name = data.name;
+    var occupation = data.occupation;
+    var description = data.description;
+    var city = data.address.city;
+    var networks = data.social.map(function (network) {
+      return (
+        <li key={network.name}>
+          <a href={network.url}>
+            <i className={network.className}></i>
+          </a>
+        </li>
+      );
+    });
+  }
 
-  useEffect(() => {
-    const timer1 = setTimeout(() => rerender(null), 2000);
-    return () => {
-      clearTimeout(timer1);
-    };
-  }, [dispatch]);
-
-  // const changeMode = () => {
-  //   if (currentColor.color === 'white' && reverseColor.reverse === '#444444') {
-  //     dispatch(getMode('#444444'));
-  //     dispatch(setReverse('white'))
-  //   } else {
-  //     dispatch(getMode('white'));
-  //     dispatch(setReverse('#444444'))
-  //   }
-  // }
-
-  // const darkMode = currentColor.color === '#444444' ? ('🌞') : ('🌙');
-  const othercolor = reverseColor.reverse !== '#444444' ? ('white') : ('black')
-
-
-  const navBar = (
-    <nav className='navbar' role='navigation' aria-label='main navigation' style={{ backgroundColor: `${currentColor.color}`, color: `${reverseColor.reverse}` }}>
-      <div className='navbar-brand'>
-        <a href='/' onclick="return false;" className='navbar-item logo-item' style={{ color: `${othercolor}` }}>
-          Kiptoo
+  return (
+    <header id="home">
+      <nav id="nav-wrap">
+        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+          Show navigation
+        </a>
+        <a className="mobile-btn" href="#home" title="Hide navigation">
+          Hide navigation
         </a>
 
-        <a
-          onClick={() => {
-            setisActive(!isActive)
-          }}
-          role='button'
-          className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
-          aria-label='menu'
-          aria-expanded='false'
-          data-target='navbarBasicExample'
-        >
-          <span aria-hidden='true' style={{ color: `${reverseColor.reverse}` }}></span>
-          <span aria-hidden='true' style={{ color: `${reverseColor.reverse}` }}></span>
-          <span aria-hidden='true' style={{ color: `${reverseColor.reverse}` }}></span>
-        </a>
-      </div>
-      <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`} style={{ backgroundColor: `${currentColor.color}` }}>
-        <div className='navbar-end'>
-          <div className='navitemscontainer'>
-            <a href='#SKILLS' className='nav-items' style={{ color: `${othercolor}` }}>Skills</a>
-            <a href='https://www.linkedin.com/in/hillarykiptoo/' className='nav-items' style={{ color: `${othercolor}` }}>About me</a>
-    
-            <a href='#CONTACT ME' className='nav-items' id="contactme" style={{border: `2px solid  ${othercolor}`, color: `${othercolor}`, borderRadius: '5px'}}>Contact me</a>
-            {/* <button className="darkmode" onClick={changeMode}>{darkMode}</button> */}
-          </div>
+        <ul id="nav" className="nav">
+          <li className="current">
+            <a className="smoothscroll" href="#home">
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="#about">
+              About
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="#resume">
+              Resume
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="#portfolio">
+              Works
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="#testimonials">
+              Testimonials
+            </a>
+          </li>
+          <li>
+            <a className="smoothscroll" href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div className="row banner">
+        <div className="banner-text">
+          <h1 className="responsive-headline">
+            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+          </h1>
+          <h3>
+            Based in {city}. <span>{occupation}</span>. {description}.
+          </h3>
+          <hr />
+          <ul className="social">{networks}</ul>
         </div>
       </div>
-    </nav>
-  )
-  return (
-    <div>{navBar}</div>
-  )
-}
+
+      <p className="scrolldown">
+        <a className="smoothscroll" href="#about">
+          <i className="icon-down-circle"></i>
+        </a>
+      </p>
+    </header>
+  );
+};
+
+export default Header;

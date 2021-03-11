@@ -1,0 +1,155 @@
+{
+  "main": {
+    "name": "Hillary Kiptoo",
+    "occupation": "Fullstack software developer",
+    "description": "I eat, sleep and breathe React",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Hillary! You might also call me Kiptoo. I've been coding for over 2 years now. As a Full Stack developer and a Freelancer. I've worked with clients to help build & scale their applications. Before that, I had worked as a Political scientist and a Farmer specifically growing onions. My passion for software development started while in my third year, doing my Bachelors’s degree. With this passion, I joined Microverse where I gained tremendous skills in React, Redux, HTML and CSS, Javascript, Ruby on Rails. Through pair programming and live coding sessions, I have accumulated several portfolio projects demonstrating how to apply developer skills in a range of cool builds and challenges. ",
+    "contactmessage": "Get in touch with me!",
+    "email": "hillaryodhiambo282@gmail.com",
+    "phone": "+254794746207",
+    "address": {
+      "street": "Oginga odinga",
+      "city": "Nairobi",
+      "state": "Kenya",
+      "zip": "27"
+    },
+    "website": "https://www.hillarykiptoo.me",
+    "resumedownload": "https://docs.google.com/document/d/13pzUnlqrqUeNMvqFoHhRyk7A0fA_yHqojTRKEKgcT0o/edit?usp=sharing",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/hillarykiptoo/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/imhilla",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Microverse - US",
+        "degree": "Web developemnt & Computer Software engineering",
+        "graduated": "February 2021",
+        "description": " Learnt the fundamentals of FullStack development. These included HTML, CSS, React, Redux, Ruby, Ruby on Rails, JavaScript, React Hooks, GraphQL. Used git workflow and Github. Completed 1600+ development hours pair programming with different students from different countries using agile methodologies. Spent 100+ hours solving complex algorithms and data structures. Attended both morning and evening standup meetings with teams to carry out code reviews and suggest better ways to implement features for a project. Built 30+ projects ranging from simple to complex applications."
+      },
+      {
+        "school": "Rongo University - KENYA",
+        "degree": "Bachelor's Degree, Political Science",
+        "graduated": "July 2016",
+        "description": " Learned how to research political subjects, such as the Kenyan political system and foreign relations. Learned how to collect and analyze data from sources such as public opinion surveys.  Learned how to develop and test political theories. Evaluated the effects of policies and laws on government, businesses, and people. Learned how to monitor current events, policy decisions, and other related issues. Submitted research results by giving presentations and publishing articles."
+      }
+    ],
+    "work": [
+      {
+        "company": "Freelancer",
+        "title": "Fullstack developer Upwork",
+        "years": "May 2019 - Present",
+        "description": "Creating apps according to client's need"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "90%"
+      },
+      {
+        "name": "Ruby",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "90%"
+      },
+      {
+        "name": "Web Development",
+        "level": "90%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Snapchat Clone (React JS)",
+        "category": "",
+        "image": "snap.PNG",
+        "url": "https://snapchat-387f2.web.app/"
+      },
+      {
+        "title": "Slack Clone (React JS)",
+        "category": "",
+        "image": "slack.PNG",
+        "url": "https://slack-20b65.web.app/"
+      },
+      {
+        "title": "Book store (React JS)",
+        "category": "",
+        "image": "bookstore.PNG",
+        "url": "https://bookstore-2.herokuapp.com/"
+      },
+      {
+        "title": "Weather app (Vanilla JS)",
+        "category": "",
+        "image": "weather.PNG",
+        "url": "https://raw.githack.com/imhilla/weatherApp/feature/dist/index.html"
+      },
+      {
+        "title": "Fakebook (Rails JS)",
+        "category": "",
+        "image": "fakebook.PNG",
+        "url": "https://facebook-newclone.herokuapp.com/users/sign_in"
+      },
+      {
+        "title": "Tictactoe (Vanilla JS)",
+        "category": "",
+        "image": "tictactoe.PNG",
+        "url": "https://raw.githack.com/imhilla/tictactoe/feature/index.html"
+      },
+      {
+        "title": "Restaurant (Js & Bootstrap)",
+        "category": "",
+        "image": "restaurant.PNG",
+        "url": "https://raw.githack.com/imhilla/restaurant-page/feature/dist/index.html#"
+      },
+      {
+        "title": "Newsweek (HTML & CSS)",
+        "category": "",
+        "image": "newsweek.PNG",
+        "url": "https://raw.githack.com/imhilla/newsweek/home-page/index.html"
+      },
+      {
+        "title": "Apple-clone (HTML & CSS)",
+        "category": "",
+        "image": "appleclone.PNG",
+        "url": "https://raw.githack.com/imhilla/apple-clone/master/index.html"
+      }, 
+      {
+        "title": "The next web (HTML & CSS)",
+        "category": "",
+        "image": "thenextweb.PNG",
+        "url": "https://raw.githack.com/imhilla/thenextweb/home-page/index.html"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "I was particularly impressed by Hillary’s ability to handle even the toughest of project challenges—effortlessly. That skill often takes years to develop among software developers, but it seemed to come perfectly naturally to him.",
+        "user": "Muhammad Fahad"
+      },
+      {
+        "text": "I studied with Hillary for more than a month. We completed our projects at the expected time. He was a good collaborator. I discussed my idea with him comfortably. More, he was punctual; we started our meetings on time.",
+        "user": "Hasan OZOVALI"
+      }
+    ]
+  }
+}

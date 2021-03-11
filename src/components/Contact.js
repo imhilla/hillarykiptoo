@@ -1,79 +1,141 @@
-import React from 'react';
-import emailjs from 'emailjs-com';
-// import apiKeys from '../apikeys';
+import React, { useState } from "react";
 
-class Contact extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      name: '',
-      message: '',
-      email: '',
-      sent: false,
-      buttonText: 'Send Message',
-      USER_ID: 'user_vBpnQZmQuPMJVP3Jmd6tI',
-      TEMPLATE_ID: 'template_mda622d',
-    }
+const Contact = ({ data }) => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
+  if (data) {
+    var contactName = data.name;
+    var street = data.address.street;
+    var city = data.address.city;
+    var state = data.address.state;
+    var zip = data.address.zip;
+    var phone = data.phone;
+    var contactEmail = data.email;
+    var contactMessage = data.contactmessage;
   }
 
+  const submitForm = () => {
+    window.open(
+      `mailto:${contactEmail}?subject=${encodeURIComponent(
+        subject
+      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
+        email
+      )}): ${encodeURIComponent(message)}`
+    );
+  };
 
-  formSubmit = (e) => {
-    e.preventDefault()
-    emailjs.sendForm('gmail', this.state.TEMPLATE_ID, e.target, this.state.USER_ID)
-      .then(result => {
-        alert('Message Sent, I\'ll get back to you shortly', result.text);
-      },
-        error => {
-          alert('An error occured, Plese try again', error.text)
-        })
-  }
+  return (
+    <section id="contact">
+      <div className="row section-head">
+        <div className="two columns header-col">
+          <h1>
+            <span>Get In Touch.</span>
+          </h1>
+        </div>
 
-  resetForm = () => {
-    this.setState({
-      name: '',
-      message: '',
-      email: '',
-      buttonText: 'Message Sent'
-    })
-  }
-
-  render() {
-    return (
-      <div className="contactContainer">
-        <a name="CONTACT ME" href="/" style={{ color: `${this.props.reverseColor.reverse}`, fontWeight: 'bold', }}>CONTACT ME</a>
-        {/* <p style={{ color: `${this.props.reverseColor.reverse}` }}>
-          If you have an application you are interested in developing, a feature that you need to be built, or a project that needs coding, I'd love to help you with it.
-      </p> */}
-        <form className="contact-form" onSubmit={(e) => this.formSubmit(e)}>
-          <div class="field">
-            <label class="label" htmlFor="message-name" style={{ color: `${this.props.reverseColor.reverse}` }}>Your Name</label>
-            <div class="control">
-              <input onChange={e => this.setState({ name: e.target.value })} name="name" class="input" type="text" placeholder="Your Name" value={this.state.name} />
-            </div>
-          </div>
-
-          <div class="field">
-            <label class="label" htmlFor="message-email" style={{ color: `${this.props.reverseColor.reverse}` }}>Your Email</label>
-            <div class="control">
-              <input onChange={(e) => this.setState({ email: e.target.value })} name="email" class="input" type="email" placeholder="your@email.com" required value={this.state.email} />
-            </div>
-          </div>
-
-          <div class="field">
-            <label class="label" htmlFor="message-input" style={{ color: `${this.props.reverseColor.reverse}` }}>Your Message</label>
-            <div class="control">
-              <textarea onChange={e => this.setState({ message: e.target.value })} name="message" class="textarea" type="text" placeholder="Please write your message here" value={this.state.message} required />
-            </div>
-          </div>
-
-          <div>
-            <button type="submit" className="button is-link" style={{ backgroundColor: `${this.props.reverseColor.reverse}`, color: `${this.props.currentColor.color}` }}>{this.state.buttonText}</button>
-          </div>
-        </form>
+        <div className="ten columns">
+          <p className="lead">{contactMessage}</p>
+        </div>
       </div>
-    )
-  }
-}
-export default Contact;
 
+      <div className="row">
+        <div className="eight columns">
+          <form onSubmit={submitForm}>
+            <fieldset>
+              <div>
+                <label htmlFor="contactName">
+                  Name <span className="required">*</span>
+                </label>
+                <input
+                  type="text"
+                  defaultValue=""
+                  value={name}
+                  size="35"
+                  id="contactName"
+                  name="contactName"
+                  onChange={(e) => setName(e.target.value)}
+                />
+              </div>
+
+              <div>
+                <label htmlFor="contactEmail">
+                  Email <span className="required">*</span>
+                </label>
+                <input
+                  type="text"
+                  defaultValue=""
+                  value={email}
+                  size="35"
+                  id="contactEmail"
+                  name="contactEmail"
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+
+              <div>
+                <label htmlFor="contactSubject">Subject</label>
+                <input
+                  type="text"
+                  defaultValue=""
+                  value={subject}
+                  size="35"
+                  id="contactSubject"
+                  name="contactSubject"
+                  onChange={(e) => setSubject(e.target.value)}
+                />
+              </div>
+
+              <div>
+                <label htmlFor="contactMessage">
+                  Message <span className="required">*</span>
+                </label>
+                <textarea
+                  cols="50"
+                  rows="15"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  id="contactMessage"
+                  name="contactMessage"
+                ></textarea>
+              </div>
+
+              <div>
+                <button onClick={submitForm} type="submit" className="submit">
+                  Submit
+                </button>
+              </div>
+            </fieldset>
+          </form>
+
+          <div id="message-warning"> Error boy</div>
+          <div id="message-success">
+            <i className="fa fa-check"></i>Your message was sent, thank you!
+            <br />
+          </div>
+        </div>
+
+        <aside className="four columns footer-widgets">
+          <div className="widget widget_contact">
+            <h4>Address and Phone</h4>
+            <p className="address">
+              {contactName}
+              <br />
+              {contactEmail}
+              <br />
+              <br />
+              {street} <br />
+              {city}, {state} {zip}
+              <br />
+              <span>{phone}</span>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
