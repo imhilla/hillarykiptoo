@@ -12,6 +12,7 @@ const Footer = ({ data }) => {
       );
     });
   }
+  
 
   return (
     <footer>
