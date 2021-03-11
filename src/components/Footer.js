@@ -23,7 +23,7 @@ const Footer = ({ data }) => {
             <li>
               Made by{" "}
               <a title="HILLARY" href="https://www.hillarykiptoo.me/">
-                Hillary Kiptoo
+                Hillary
               </a>
             </li>
           </ul>
