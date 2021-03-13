@@ -118,24 +118,6 @@
         "category": "",
         "image": "tictactoe.PNG",
         "url": "https://raw.githack.com/imhilla/tictactoe/feature/index.html"
-      },
-      {
-        "title": "Newsweek (HTML & CSS)",
-        "category": "",
-        "image": "newsweek.PNG",
-        "url": "https://raw.githack.com/imhilla/newsweek/home-page/index.html"
-      },
-      {
-        "title": "Apple-clone (HTML & CSS)",
-        "category": "",
-        "image": "appleclone.PNG",
-        "url": "https://raw.githack.com/imhilla/apple-clone/master/index.html"
-      }, 
-      {
-        "title": "The next web (HTML & CSS)",
-        "category": "",
-        "image": "thenextweb.PNG",
-        "url": "https://raw.githack.com/imhilla/thenextweb/home-page/index.html"
       }
     ]
   },
