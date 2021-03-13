@@ -81,13 +81,20 @@
     ]
   },
   "portfolio": {
-    "projects": [
+    "projects": [ 
+      {
+        "title": "LinkedIn Clone (React JS)",
+        "category": "",
+        "image": "linkedin.PNG",
+        "url": "https://raw.githack.com/imhilla/weatherApp/feature/dist/index.html"
+      },
       {
         "title": "Snapchat Clone (React JS)",
         "category": "",
         "image": "snap.PNG",
         "url": "https://snapchat-387f2.web.app/"
       },
+
       {
         "title": "Slack Clone (React JS)",
         "category": "",
@@ -99,12 +106,6 @@
         "category": "",
         "image": "bookstore.PNG",
         "url": "https://bookstore-2.herokuapp.com/"
-      },
-      {
-        "title": "Weather app (Vanilla JS)",
-        "category": "",
-        "image": "weather.PNG",
-        "url": "https://raw.githack.com/imhilla/weatherApp/feature/dist/index.html"
       },
       {
         "title": "Fakebook (Rails JS)",

@@ -3,3 +3,7 @@
   border-radius: 5px;
   padding: 20px;
 }
+
+.App {
+  font-family: 'Open Sans', sans-serif !important;
+}
