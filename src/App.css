@@ -4,6 +4,6 @@
   padding: 20px;
 }
 
-.App {
+.App, .banner-text {
   font-family: 'Open Sans', sans-serif !important;
 }
