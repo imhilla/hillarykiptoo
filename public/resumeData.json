@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Hillary Kiptoo",
-    "occupation": "Fullstack software developer",
+    "occupation": "Fullstack software engineer",
     "description": "Focused, motivated & passionate",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Hillary! You might also call me Kiptoo. I've been coding for over 2 years now. As a Full Stack developer and a Freelancer. I've worked with clients to help build & scale their applications. Before that, I had worked as a Political scientist and a Farmer specifically growing onions. My passion for software development started while in my third year, doing my Bachelors’s degree. With this passion, I joined Microverse where I gained tremendous skills in React, Redux, HTML and CSS, Javascript, Ruby on Rails. Through pair programming and live coding sessions, I have accumulated several portfolio projects demonstrating how to apply developer skills in a range of cool builds and challenges. ",
+    "bio": "I'm Hillary, a Full-Stack engineer and Freelancer with over 3 years of experience. I've actively contributed to the growth and scalability of various applications, collaborating with both start-ups and clients. My journey began as a Political scientist and Onion Farmer, but my fascination with software development ignited during my third year of pursuing a Bachelor's degree. Fueling my passion, I embarked on a transformative path with Microverse, honing my expertise in an array of technologies including React, Redux, HTML, CSS, Javascript, and Ruby on Rails. Through dynamic pair programming and engaging live coding sessions, I've assembled an impressive portfolio showcasing my adeptness in crafting diverse and innovative projects. Furthermore, my commitment to continuous learning led me to explore the realm of Machine Learning, enabling me to incorporate these skills into practical projects within my professional endeavors. ",
     "contactmessage": "Get in touch with me!",
     "email": "hillaryodhiambo282@gmail.com",
     "phone": "+254794746207",
@@ -15,7 +15,7 @@
       "zip": "27"
     },
     "website": "https://www.hillarykiptoo.me",
-    "resumedownload": "https://docs.google.com/document/d/13pzUnlqrqUeNMvqFoHhRyk7A0fA_yHqojTRKEKgcT0o/edit?usp=sharing",
+    "resumedownload": "https://docs.google.com/document/d/1261Jh-Byt4B5gn2wkvQ5Qpv7PiN0cs-zlVhIqmFzIMQ/edit?usp=sharing",
     "social": [
       {
         "name": "linkedin",
@@ -47,10 +47,16 @@
     ],
     "work": [
       {
+        "company": "Powwater",
+        "title": "Fullstack engineer",
+        "years": "April 2021 - July 2023",
+        "description": "Powwater is a mobile technology platform connecting high-quality water vendors with customers in Kenya (and soon to be East Africa & beyond) for a transparent, reliable, and high-quality water purchasing experience. Funded by Boost VC, Goodwater Capital, Blue Collective, and The Bill & Melinda Gates Foundation."
+      },
+      {
         "company": "Freelancer",
         "title": "Fullstack developer Upwork",
         "years": "May 2019 - Present",
-        "description": "Creating apps according to client's need"
+        "description": "I specialize in boosting digital presence for businesses and individuals through expert web and mobile app development. As a skilled full-stack developer, I create robust, scalable solutions for exceptional client results. "
       }
     ],
     "skills": [
@@ -81,7 +87,7 @@
     ]
   },
   "portfolio": {
-    "projects": [ 
+    "projects": [
       {
         "title": "LinkedIn Clone (React JS)",
         "category": "",
@@ -94,7 +100,6 @@
         "image": "snap.PNG",
         "url": "https://snapchat-387f2.web.app/"
       },
-
       {
         "title": "Slack Clone (React JS)",
         "category": "",
