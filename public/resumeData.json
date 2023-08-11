@@ -89,40 +89,28 @@
   "portfolio": {
     "projects": [
       {
-        "title": "LinkedIn Clone (React JS)",
+        "title": "Positivus",
         "category": "",
-        "image": "linkedin.PNG",
-        "url": "https://linkedin-764e7.web.app/"
+        "image": "positivus.jpg",
+        "url": "https://positivus-virid.vercel.app/"
       },
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "Texting service",
         "category": "",
-        "image": "snap.PNG",
-        "url": "https://snapchat-387f2.web.app/"
-      },
-      {
-        "title": "Slack Clone (React JS)",
-        "category": "",
-        "image": "slack.PNG",
-        "url": "https://slack-20b65.web.app/"
-      },
-      {
-        "title": "Book store (React JS)",
-        "category": "",
-        "image": "bookstore.PNG",
-        "url": "https://bookstore-2.herokuapp.com/"
-      },
-      {
-        "title": "Fakebook (Rails JS)",
-        "category": "",
-        "image": "fakebook.PNG",
-        "url": "https://facebook-newclone.herokuapp.com/users/sign_in"
+        "image": "texting.jpg",
+        "url": "https://github.com/imhilla/texting_service"
       },
       {
         "title": "Tictactoe (Vanilla JS)",
         "category": "",
         "image": "tictactoe.PNG",
         "url": "https://raw.githack.com/imhilla/tictactoe/feature/index.html"
+      },
+      {
+        "title": "Slack Clone (React JS)",
+        "category": "",
+        "image": "slack.PNG",
+        "url": "https://slack-20b65.web.app/"
       }
     ]
   },
